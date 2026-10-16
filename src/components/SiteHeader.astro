@@ -39,11 +39,12 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
     </nav>
   </div>
 </header>
-<script>
-  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
-  const navigation = document.querySelector<HTMLElement>('#primary-navigation');
-  const services = document.querySelector<HTMLDetailsElement>('.services-menu');
-  const setOpen = (open: boolean) => {
+<script is:inline>
+  (() => {
+  const toggle = document.querySelector('.menu-toggle');
+  const navigation = document.querySelector('#primary-navigation');
+  const services = document.querySelector('.services-menu');
+  const setOpen = (open) => {
     toggle?.setAttribute('aria-expanded', String(open));
     toggle?.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
     navigation?.classList.toggle('is-open', open);
@@ -69,4 +70,6 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
   });
   navigation?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setOpen(false)));
   window.matchMedia('(min-width: 1100px)').addEventListener('change', () => setOpen(false));
+  document.querySelector('.site-header')?.classList.add('nav-enhanced');
+  })();
 </script>

@@ -1,6 +1,6 @@
 ---
-name: Air Turbulencia
-description: Calm & Established — approved desktop B implemented as a local Astro homepage for review.
+name: Air Turbulencia — Comfort in Motion
+description: Approved option 02 implemented as a local Astro homepage alternative.
 colors:
   b-paper: "#FAFAF7"
   b-stone: "#EEEFEA"
@@ -14,143 +14,231 @@ colors:
   b-light-copy: "#D7E2E5"
   b-white: "#FFFFFF"
 typography:
+  display:
+    fontFamily: "Archivo Black, Arial Black, sans-serif"
+    fontSize: "clamp(56px, 5.1vw, 76px)"
+    fontWeight: 400
+    lineHeight: 1.02
+    letterSpacing: "-0.045em"
   headline:
     fontFamily: "Archivo Black, Arial Black, sans-serif"
+    fontSize: "clamp(36px, 4vw, 58px)"
     fontWeight: 400
-    fontSize: "52px"
-    lineHeight: 1.15
-    letterSpacing: "-0.7px"
+    lineHeight: 1.12
+    letterSpacing: "-0.035em"
   title:
     fontFamily: "Archivo Black, Arial Black, sans-serif"
+    fontSize: "28px"
     fontWeight: 400
-    fontSize: "36px"
-    lineHeight: 1.22
-    letterSpacing: "-0.7px"
+    lineHeight: 1.12
+    letterSpacing: "-0.02em"
   body:
     fontFamily: "Open Sans, Arial, sans-serif"
-    fontWeight: 400
     fontSize: "16px"
-    lineHeight: 1.6
+    fontWeight: 400
+    lineHeight: 1.65
   body-emphasis:
     fontFamily: "Open Sans, Arial, sans-serif"
     fontWeight: 600
+  hero-body:
+    fontFamily: "Open Sans, Arial, sans-serif"
+    fontSize: "17px"
+    fontWeight: 400
+    lineHeight: 1.7
+  label:
+    fontFamily: "Open Sans, Arial, sans-serif"
+    fontSize: "11px"
+    fontWeight: 600
+    lineHeight: 1.65
+    letterSpacing: "0.14em"
 rounded:
   button: "4px"
+spacing:
+  section-desktop: "112px"
+  section-tablet: "80px"
+  section-mobile: "64px"
+  panel-gap: "24px"
 components:
   button-primary:
     backgroundColor: "{colors.b-ocean}"
     textColor: "{colors.b-white}"
     rounded: "{rounded.button}"
-    padding: "15px 24px"
+    padding: "16px 24px"
   button-primary-hover:
     backgroundColor: "{colors.b-ocean-hover}"
+  button-light:
+    backgroundColor: "{colors.b-paper}"
+    textColor: "{colors.b-ink}"
+    rounded: "{rounded.button}"
+    padding: "16px 24px"
+  button-light-hover:
+    backgroundColor: "{colors.b-stone}"
+  motion-toggle:
+    backgroundColor: "{colors.b-paper}"
+    textColor: "{colors.b-ink}"
+    rounded: "{rounded.button}"
+    padding: "8px 14px"
+  service-panel:
+    backgroundColor: "{colors.b-ink}"
+    textColor: "{colors.b-white}"
+    padding: "36px 40px 30px"
+  service-panel-repair:
+    backgroundColor: "{colors.b-stone}"
+    textColor: "{colors.b-ink}"
+    padding: "36px 40px 30px"
 ---
 
 # Design System: Air Turbulencia
 
 ## Overview
 
-**Creative North Star: "Calm & Established"**
+**Creative North Star: "Comfort in Motion"**
 
-Air Turbulencia's approved direction is calm, orderly, and established. Warm light surfaces, dark readable text, restrained ocean-blue actions, generous space, and clear typography support trust and informed service decisions. The original logo remains intact on white with space around it.
+The approved alternative brings the sensation of conditioned air into a luminous architectural room. Broad photography, confident headings and generous space establish comfort; ocean actions and readable service information make the next step immediate. The original logo remains intact on white.
 
-Visual authority is approved brand board B (`IYSqH`) and desktop homepage (`gcKwa`) in `pencil-design/airturbulencia.pen`, including the approved Archivo Black, amber details, dark top bar/Service Area, and FAQ image/padding refinements. Option A remains archived and rejected. This document records the actual local Astro homepage in `src/styles/global.css`, `src/components/SiteHeader.astro`, and `src/pages/index.astro`; see [implementation evidence and limits](docs/08-local-implementation.md). The homepage is ready for local review. The remaining pages and production migration are incomplete, interiors link to the published website, and preview retains `noindex, nofollow`. No separate mobile design was approved. The hero is static; an animation effect remains deferred.
+This document records option 02 on `feat/homepage-02-airflow`, described in [the surface brief](docs/09-homepage-option-02.md). Its source authority is `src/styles/global.css`, the Astro components and the motion scripts. The user approved this code-led alternative with airflow, curtain motion and section entrances. The earlier Pencil-only composition and deferred-animation restrictions are superseded for this branch; the approved B brand identity remains binding. Original main at `4586934` remains a separate baseline.
 
 **Key Characteristics:**
 
-- Warm paper and stone surfaces with readable ink and muted text.
-- Ocean-blue actions, fine rules, and Lucide line icons with restrained amber details.
-- Archivo Black headlines paired with Open Sans body text and controls.
-- An unchanged original logo with generous surrounding space.
-- Restrained corners and broad photography without decorative excess.
+- Paper and stone surfaces alternate with ink sections and ocean actions.
+- Archivo Black headlines retain the original brand pairing with Open Sans.
+- Architectural photography and restrained airflow create depth around readable content.
+- Asymmetric service panels become a simple vertical sequence on small screens.
+- Motion enhances visible content and respects pause, reduced motion and static fallbacks.
 
 ## Colors
 
-The palette combines warm neutral surfaces with deep ink and ocean-blue accents. The frontmatter is the normative source for values.
+Warm neutral surfaces support cool ocean actions and small amber details. Frontmatter owns the source values; sidecar tonal ramps are synthesized visualization aids, not additional shipping tokens.
 
 ### Primary
 
-- **Ocean (`b-ocean`):** primary buttons, links, navigation controls, and focus rings; primary buttons use white text.
-- **Ocean hover (`b-ocean-hover`):** darker primary-button hover state.
+- **Ocean (`b-ocean`):** action backgrounds, heading accents, links, focus outlines and process numbers.
+- **Ocean hover (`b-ocean-hover`):** primary action hover.
 
 ### Tertiary
 
-- **Amber (`b-amber`):** optional small decorative details. Its availability does not require placing it in every section.
+- **Amber (`b-amber`):** service icons, decorative marks and small separators.
 
 ### Neutral
 
-- **Paper (`b-paper`):** main warm background.
-- **Stone (`b-stone`):** secondary surfaces.
-- **Ink (`b-ink`):** text, headings, top bar, company block, Service Area, and footer.
-- **Muted (`b-muted`):** secondary text on light surfaces.
-- **White (`b-white`):** logo/navigation surface, primary-button text, and headings on ink.
-- **Line (`b-line`):** fine service, FAQ, and navigation separators.
-- **Light copy (`b-light-copy`):** secondary text on ink.
-- **Footer rule (`b-footer-rule`):** fine footer separator on ink.
+- **Paper (`b-paper`):** page, mobile hero copy, motion control and light action.
+- **Stone (`b-stone`):** repair panel, process and testimonials.
+- **Ink (`b-ink`):** primary text, top bar, installation panel, expertise, coverage and footer.
+- **Muted (`b-muted`):** secondary copy on light surfaces.
+- **Line (`b-line`):** light-surface separators and borders.
+- **Light copy (`b-light-copy`):** secondary copy on dark surfaces.
+- **Footer rule (`b-footer-rule`):** dark-panel, town and footer separators.
+- **White (`b-white`):** logo/header surface and high-emphasis text on dark surfaces.
 
-**The Restrained Amber Rule.** Amber is optional, small, and decorative; do not use it for small text on light backgrounds.
+**The Restrained Amber Rule.** Amber supports small decorative details; do not use it for small text on light backgrounds.
 
-Board contrast checks cover specific color pairs only. They are not evidence of website-wide accessibility conformance.
+The desktop hero adds a paper-opacity gradient over the photograph to protect readability. Image/canvas contrast requires manual review; palette checks alone do not establish conformance.
 
 ## Typography
 
-**Display Font:** Archivo Black for headlines, nominal weight 400 (the face itself is black weight). This supersedes Poppins after the user approved the type trial.
+**Display Font:** Archivo Black, with Arial Black and sans-serif fallbacks. Use nominal weight 400; the face itself supplies the black weight.
 
-**Body Font:** Open Sans for body text and controls, in regular and semibold weights (400/600).
+**Body Font:** Open Sans, with Arial and sans-serif fallbacks, regular and semibold (400/600). Fontsource serves local Latin files. Font synthesis is disabled; regular display/body WOFF2 files are preloaded.
 
-Headlines use the nominal weight of the Archivo Black face without synthesizing a heavier weight. Base H1 and H2 tokens are in frontmatter; base H3 is 23px/1.22. Individual sections use deliberate heading overrides (for example company H2 42px and FAQ H2 34px). These are source-derived homepage sizes, not a required hierarchy for unfinished interiors.
+The hierarchy is role-based and source-derived, not a single mathematical modular scale. Fluid display and section sizes coexist with fixed sizes tuned to content roles. The detector's font-ramp advisory is documented here rather than used to normalize the approved composition.
 
-Fontsource serves local Latin font files: Archivo Black 400 and Open Sans 400/600. Arial Black and Arial provide fallbacks. No remote font CSS is loaded. The board's sample phrase demonstrates typography and is not production copy.
+| Role | Desktop / base | Compact or mobile overrides |
+| --- | --- | --- |
+| Hero H1 | Frontmatter display ramp; max width 650px | 58px at ≤1099px; clamp(36px, 9.7vw, 46px), line-height 1.08 at ≤767px; 35px at ≤359px |
+| Standard H2 | Frontmatter headline ramp | 37px at ≤767px |
+| Final call H2 | clamp(38px, 4.3vw, 62px) | 38px at ≤767px |
+| Coverage H2 | 48px | 36px at ≤767px |
+| FAQ H2 | 43px | 36px at ≤1099px |
+| Service panel H3 | 36px | 30px at ≤1099px; 32px at ≤767px |
+| Heating/commercial H3 | 36px | 32px at ≤767px |
+| Equipment H3 | 30px | 27px at ≤767px |
+| Process H3 | 23px | 24px at ≤767px |
+| Service extras H3 | 20px | 19px at ≤767px |
+| Testimonial quote | 23px / 1.6, Open Sans 400 | 20px at ≤1099px |
+| FAQ summary | 19px, Open Sans 600 | 17px at ≤767px |
+| Main copy | Frontmatter body; selected secondary copy 15px | Hero and selected section copy 15px |
+| Hero location | Frontmatter label | 9px at ≤767px; tracking 0.08em at ≤359px |
+| Navigation/header action | 13px / 600 | Same type in compact navigation |
+| Footer labels/links | Titles 16px Archivo Black; links 12px Open Sans | Same; footer bottom 10px |
+| Decorative number/quote | Step number 43px; quote glyph 90px | 32px / 74px at ≤767px |
+
+Headings balance lines; H3 tracking uses the title role. Hero body is limited to 420px (350px compact, 45ch mobile), service panel copy to 52ch, expertise/coverage prose to 48ch.
+
+**The Brand Type Rule.** Preserve Archivo Black 400 and Open Sans 400/600; section-specific sizing does not authorize a new font family or synthetic weight.
 
 ## Layout
 
-The content container is `min(1264px, calc(100% - 176px))`, centered: at 1440px it has 88px side margins. At widths up to 1350px, side margins become 48px; up to 767px they become 24px. Default section padding is 80px vertically, including FAQ; compact layouts use 48px. Hero top padding is 58px, reduced to 36px on compact screens. Desktop hero columns use a flexible heading column plus 400px copy column and a 72px gap.
+The centered container is `min(1280px, calc(100% - 112px))`, then `calc(100% - 64px)` at ≤1099px and `calc(100% - 40px)` at ≤767px. Section spacing follows the frontmatter desktop/tablet/mobile tokens. Header minimum height is 94px, then 84px compact and 76px mobile; logo width changes from 180px to 155px mobile.
 
-Source breakpoints are max-width 1350px, 1099px, 767px, and 380px. At 1099px navigation becomes a toggle menu and H1 becomes 44px. At 767px major paired grids stack, popular service links become two columns, H1 uses `clamp(32px, 8vw, 42px)`, and the footer becomes two columns. At 380px the footer becomes one column and localities use two columns. This is a tested fluid fallback, not an approved mobile artboard. Reported checks found no horizontal overflow at 320–1920px; screenshots do not establish Safari/iPhone behavior.
+The full-width hero is at least 740px high, 800px at ≥1700px and 690px at ≤1099px. Desktop copy sits left over the gradient; the AC outlet and curtain occupy the right. On mobile, copy precedes a separate 330px-high scene. Its 620px-wide surface sits at left 50% with -390px margin to retain the right-side subject. Desktop-only text breaks disappear.
+
+Service panels use a 1.15:1 grid, 24px gap and a 54px lowered repair panel. Process steps use three columns; expertise, heating/commercial, reviews and FAQ use pairs. Coverage stacks at ≤1099px. At ≤767px major paired layouts and process steps stack, repair loses its offset, and quick services/towns use two columns. Footer changes from four columns to two, then one at ≤359px. Hero actions also become vertical at ≤359px.
+
+Quick-service/footer tracks use `minmax(0, 1fr)` where needed and long links wrap. These are implemented responsive rules, not evidence of a separate mobile Pencil artboard or Safari/iPhone validation.
 
 ## Elevation & Depth
 
-Depth comes mainly from paper, stone, ink, and fine rules. The desktop Services dropdown alone uses a subtle shadow (`0 12px 30px #182d381a`); at 1099px and below it becomes an unshadowed inline menu. No general card-shadow system is implemented.
+Depth comes from architecture, translucent airflow, fabric deformation and paper/stone/ink layering. Panels remain flat and square. The sole shadow (`0 12px 30px #182d381a`) belongs to the desktop Services dropdown and disappears in compact navigation. The hero gradient is a legibility layer.
 
 ## Shapes
 
-Buttons have discreet corners using the button radius token. Fine rules and Lucide line icons support the restrained visual language. The button radius does not establish a universal radius for photos or containers; photographs do not need rounded corners.
+Buttons and motion toggle use the discreet corner token. Service imagery and panels remain square. Fine borders divide routes, process steps, FAQs, towns and footer content. Lucide line icons supply arrows, service symbols and disclosure indicators.
 
 ## Components
 
-### Buttons
+### Actions and links
 
-Primary action links pair ocean blue with white, the button radius token, a transparent 1px border, 52px minimum height, and semibold 16px text. Default padding is in frontmatter; header actions use 14px 21px with 14px text. Hover uses the ocean-hover token with a 160ms ease background-color transition. Focus uses a 3px ocean outline offset by 5px, white on dark surfaces. Reduced-motion preference removes transitions and animations. No separate active, disabled, loading, or outlined-button implementation exists.
+Primary actions use frontmatter tokens, a transparent 1px border, 56px minimum height, 22px icon gap and semibold text. Header actions use 48px minimum height and 12px 20px padding; mobile hero actions use 52px and 13px 18px. The final call uses the light variant. Background hover takes 180ms; action/text-link arrows move 2px right and 2px up over 180ms. Text links have at least 44px height and underline on hover.
 
-### Navigation and content rows
+Focus uses a 3px ocean outline with 5px offset, white in top bar, dark sections, footer and final call. There are no implemented loading, disabled or form-field variants.
 
-The desktop header is white, with a 211px logo and 117px minimum height. Services uses native `details`/`summary`; the open state colors its label ocean and rotates the chevron. Its two-column dropdown is at most 690px wide with 30px padding. The compact toggle synchronizes its label and `aria-expanded`; Escape closes Services first, then the compact menu, and restores focus. Outside clicks and menu links close the compact menu; Services also closes when focus leaves it. Navigation and text links underline on hover.
+### Navigation
 
-Service rows use a 28px icon column, 22px gap, 24px vertical padding, and fine top rules. FAQ articles use 22px vertical padding and fine rules; questions are static headings, not accordion controls. The FAQ equipment image uses containment in a 240px-high box. Hero photography is static, 430px high on desktop, 360px at 1099px, and 260px at 767px. Images use Astro-generated AVIF/WebP variants and fallback; the hero loads eagerly with high priority and lower images load lazily.
+Services uses native `details/summary`, an ocean open label and rotating chevron. Desktop dropdown is two columns, up to 690px wide, with 30px padding and the documented shadow. At ≤1099px it becomes inline and unshadowed; at ≤767px its groups stack.
 
-### Logo
+Compact navigation is visible without JavaScript. Enhancement introduces the toggle and synchronizes label/`aria-expanded`. Escape closes Services first, then navigation, restoring focus. Outside clicks, followed links and desktop breakpoint changes close the compact menu; leaving Services with focus closes that disclosure.
 
-Preserve the Air Turbulencia name and original logo without recoloring, redrawing, or cropping. Show the complete asset on white, including the frame and tones already contained within it.
+### Service panels and supporting content
 
-### Icons and photography
+Installation uses ink/light copy; repair uses stone/muted copy. Images are 330px high desktop and 270px mobile. Panel padding changes from its frontmatter value to 30px compact and 28px mobile. Image hover scales to 1.035 over 650ms. Link rows have a fine top rule and 48px minimum height. Equipment uses a white inset with contained imagery. Attributed testimonials remain visible figures.
 
-Use Lucide line icons. Existing website photographs shown in the board are visual references; they do not establish company ownership, completed work, or identified customers. Verify rights, quality, and originals before production. Do not turn those images into unsupported business evidence.
+### Questions
+
+FAQs use native `details/summary`, first answer initially open, with 24px vertical padding and fine dividers. The 44px-minimum summary has a plus icon rotating 45 degrees over 200ms when open. Answers remain usable without JavaScript.
+
+### Architectural airflow and motion
+
+The room plus transparent curtain form the initial static composition. Static and animated states share one optimized curtain texture at 80% scene height, avoiding a switch between separately generated photographs. Three desktop airflow paths reduce to two on mobile or lower quality. A pinned fabric mesh animates the curtain; scene strength fades in over 1.1 seconds.
+
+WebGL2 loads dynamically after the room decodes when motion is allowed. It pauses offscreen/in hidden tabs, disposes resources on exit and reinitializes after back-forward cache restoration. Missing WebGL, shader failure, context loss or sustained low throughput returns the static composition. Resolution is limited by viewport, DPR and an 800,000-pixel budget; adaptive quality reduces resolution, lane count and eventually frame target before fallback. Frame targets are implementation settings, not measured smoothness guarantees.
+
+Pause/resume affects scene and section entrances and persists in session storage. Reduced motion and Save-Data retain the static composition and hide the control. Reduced motion also disables CSS transitions/animations. Content remains visible without JavaScript.
+
+Entrances occur once after intersection: text rises or shifts 22px over 540ms; images rise 20px with shallow clipping over 780ms. Delays cap at 300ms, using `cubic-bezier(.16,1,.3,1)`. Focus, hash navigation, rapid scrolling and pausing finish relevant entrances. Process rules draw over 850ms; the closing line enters over 1.1 seconds. Fine-pointer desktop parallax is bounded to ±6px horizontal, ±4px vertical and 24px scroll displacement; mobile has none.
+
+### Logo and imagery
+
+Preserve the complete original logo on white. The hero is a conceptual interior, not evidence of company work. [Raster provenance](design/airflow-source/provenance.md) records the generated room/backplate/curtain. Inherited service/equipment imagery has original source evidence in `docs/evidence/source-baseline`; company ownership and customer identity remain unverified.
+
+Astro emits responsive AVIF/WebP images. Hero loads eagerly with high priority; lower images load lazily. Reduced-motion rendering requires no duplicate animation-only curtain texture.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- Do use the approved B palette and typography as the visual authority.
+- Do preserve the approved B brand colors, Archivo Black and Open Sans in this alternative.
 - Do preserve the complete original logo on white with space around it.
-- Do use ocean blue for actions and reserve amber for small icons, checks, and rules.
-- Do preserve readable contrast and visible keyboard focus in light and dark sections.
-- Do use the latest approved desktop composition, including its subsequent type and accent refinements.
+- Do keep copy and service actions usable before motion enhancement loads.
+- Do retain native navigation and FAQ behavior, visible focus and responsive stacking.
+- Do keep conceptual and inherited image provenance with the assets.
+- Do treat this branch as a local homepage alternative pending user review.
 
 ### Don't:
 
-- Don't restore or extend the archived, rejected option A.
-- Don't recolor, redraw, or crop the original logo.
+- Don't restore the rejected option A or impose the baseline composition on this approved alternative.
+- Don't recolor, redraw or crop the original logo.
 - Don't use amber for small text on light backgrounds.
-- Don't present board photography as verified company work or customer evidence.
-- Don't present the local homepage as a completed full-site migration or as released production.
-- Don't invent badges, metrics, credentials, or endorsements.
+- Don't present conceptual or inherited imagery as verified company work.
+- Don't claim 60fps, all-browser compliance or numerical image-overlay contrast conformance without evidence.
+- Don't present the local homepage as a completed full-site migration or released production.
+- Don't invent badges, metrics, credentials or endorsements.

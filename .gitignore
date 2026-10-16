@@ -11,3 +11,7 @@ Thumbs.db
 __pycache__/
 *.pyc
 .agents/skills/impeccable/scripts/bin/
+docs/evidence/option-02/motion-trace.zip
+docs/evidence/option-02/recordings/
+docs/evidence/option-02/lighthouse/
+docs/evidence/option-02/lighthouse-final/

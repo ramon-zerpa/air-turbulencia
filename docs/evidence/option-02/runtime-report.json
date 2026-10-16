@@ -1,0 +1,61 @@
+{
+  "browsers": [
+    {
+      "name": "chromium",
+      "desktop": {
+        "width": 1440,
+        "overflow": false,
+        "scene": "ready",
+        "h1": "AC installation in Tampa.Comfort you can feel."
+      },
+      "mobileMenu": "true",
+      "errors": []
+    },
+    {
+      "name": "firefox",
+      "unavailable": "browserType.launch: Host system is missing dependencies!\n\nFull list of missing libraries:\n    mozglue.dll\n    gkcodecs.dll\n    mozavutil.dll\n    nss3.dll\n"
+    },
+    {
+      "name": "webkit",
+      "unavailable": "browserType.launch: Host system is missing dependencies!\n\nFull list of missing libraries:\n    brotlidec.dll\n    nghttp2.dll\n    nghttp3.dll\n    libxslt.dll\n    libwebp.dll\n    webcore.dll\n    jpeg62.dll\n    libglesv2.dll\n"
+    }
+  ],
+  "budgets": {
+    ".js": [
+      {
+        "file": "airflow.DkCI29wa.js",
+        "bytes": 4926,
+        "gzip": 2280
+      },
+      {
+        "file": "index.astro_astro_type_script_index_0_lang.BQqCxRx_.js",
+        "bytes": 5478,
+        "gzip": 2377
+      }
+    ],
+    ".css": [
+      {
+        "file": "index.CMMQNZVr.css",
+        "bytes": 19377,
+        "gzip": 4696
+      }
+    ]
+  },
+  "motion": {
+    "desktop": {
+      "airScene": "",
+      "state": "ready",
+      "running": "true",
+      "fps": "12",
+      "quality": "1"
+    },
+    "offscreen": "false",
+    "thirdPartyRequests": [],
+    "mobile": {
+      "airScene": "",
+      "state": "ready",
+      "running": "true",
+      "fps": "30"
+    }
+  }
+}

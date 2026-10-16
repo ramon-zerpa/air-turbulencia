@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import fs from 'node:fs';
 import path from 'node:path';
 
-const shots = path.resolve('docs/evidence/local-review');
+const shots = path.resolve('docs/evidence/option-02');
 fs.mkdirSync(shots, { recursive: true });
 
 test('desktop preserves the approved search intent, page coverage and local assets', async ({ page }) => {
@@ -11,13 +11,13 @@ test('desktop preserves the approved search intent, page coverage and local asse
   const thirdPartyRequests: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   page.on('request', request => {
-    if (!request.url().startsWith('http://127.0.0.1:4321') && !request.url().startsWith('data:')) thirdPartyRequests.push(request.url());
+    if (!request.url().startsWith('http://127.0.0.1:4322') && !request.url().startsWith('data:')) thirdPartyRequests.push(request.url());
   });
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto('/');
   await page.evaluate(() => document.fonts.ready);
   await expect(page).toHaveTitle('AC Installation Tampa Florida | (813) 815-1234 | Air Turbulencia');
-  await expect(page.locator('h1')).toHaveText('Trusted Specialists in AC Installation Tampa');
+  await expect(page.locator('h1')).toHaveText('AC installation in Tampa.Comfort you can feel.');
   await expect(page.locator('h1')).toHaveCount(1);
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://www.airturbulencia.com/');
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
@@ -37,11 +37,11 @@ test('desktop preserves the approved search intent, page coverage and local asse
     }
   });
   await page.screenshot({ path: path.join(shots, 'desktop.png'), fullPage: true });
-  await page.locator('.hero').screenshot({ path: path.join(shots, 'hero-desktop.png') });
+  await page.locator('.air-hero').screenshot({ path: path.join(shots, 'hero-desktop.png') });
   expect(thirdPartyRequests).toEqual([]);
   expect(errors).toEqual([]);
   const bundleScripts = await page.locator('script[src]').count();
-  expect(bundleScripts).toBeLessThanOrEqual(1);
+  expect(bundleScripts).toBeLessThanOrEqual(2);
 });
 
 test('keyboard can open services, follow its links and dismiss the menu', async ({ page }) => {

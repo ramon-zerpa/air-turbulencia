@@ -8,11 +8,13 @@ web
 
 ## Stack
 
-Astro 7.4.0 with static output. Local homepage implementation underway. GitHub-connected Cloudflare publication after explicit authorization; no remote connected yet.
+Astro 7.4.0 with static output, local Fontsource fonts and Lucide Astro icons. The homepage alternative adds progressive WebGL2 and Web Animations enhancements without a frontend application runtime.
+
+A private GitHub repository exists at https://github.com/ramon-zerpa/air-turbulencia. No push, merge or release is authorized or completed for this alternative. Planned publication uses Cloudflare through GitHub integration; repository creation alone does not establish that deployment integration is connected. Normal releases use authorized Git pushes after configuration, never direct deployment commands.
 
 ## Users
 
-Visitors seeking air conditioning and heating services in Tampa Bay. Existing published content addresses residential and commercial needs; exact audience segmentation has not been separately researched.
+Visitors seeking air conditioning and heating services in Tampa Bay, including residential and commercial needs. Exact audience segmentation has not been separately researched.
 
 ## Product Purpose
 
@@ -20,21 +22,34 @@ Generate calls and service requests, attract installation and replacement work, 
 
 ## Capabilities and Constraints
 
-Full-site redesign, beginning with the homepage. English only for now. Preserve organic search progress: existing URLs, sitemap coverage, useful content, intent, and crawlable internal links. Use equivalent-destination 301 redirects only for justified, approved URL changes. Preserve approximately 70% of content essence; editorial freedom is subordinate to SEO protection and factual accuracy. No publication or push authorized.
+Full-site redesign, beginning with the homepage. English only for now. Preserve organic search progress: existing URLs, sitemap coverage, useful content, search intent and crawlable internal links. Use equivalent-destination 301 redirects only for justified, approved URL changes. Preserve approximately 70% of content essence; editorial freedom remains subordinate to SEO protection and factual accuracy.
 
-Current design sequence, explicitly requested after rejection of the first proposal: start over with a brand board in option B, then design the homepage only in desktop. Do not extend the rejected A composition or create another mobile proposal in this stage.
+The current deliverable is a static-built homepage alternative, not a full-site migration. Interior links point to the published website, metadata/canonical remain inherited, and local preview retains `noindex, nofollow`. Service requests and calls use existing destinations; there is no new local request form.
+
+Baseline main is `4586934` in the original checkout. The approved alternative is isolated in `../air-turbulencia-homepage-02` on `feat/homepage-02-airflow`, previewed on 4322 while the baseline uses 4321. No baseline overwrite, push, merge or release is part of this delivery.
 
 ## Brand Commitments
 
-Keep the Air Turbulencia name and original logo unchanged. User permits new colors and fonts and wants a fresh, modern image. Option A homepage rejected. Option B (Calm & Established) brand board and desktop homepage approved, including Archivo Black headings, Open Sans body, restrained Amber, dark top bar/service area, and FAQ image with 80px top padding. User closed the Pencil phase and authorized continuing into code. Hero animation is an idea to resolve later in code, not a defined or approved effect.
+Keep the Air Turbulencia name and original logo unchanged. Approved option B established Paper, Stone, Ink, Ocean and restrained Amber, with Archivo Black headings and Open Sans body. Original option A remains rejected.
+
+The user approved the detailed code-led option 02, "Comfort in Motion," with architectural room, airflow, moving curtain, section entrances and responsive/static fallbacks. On this branch that decision supersedes the former Pencil-only composition sequence and statement that hero animation was not approved. The approved brand identity remains binding. [The option 02 surface brief](docs/09-homepage-option-02.md) owns page strategy; [DESIGN.md](DESIGN.md) records the implemented visual system.
 
 ## Evidence on Hand
 
-Project decisions in docs/01-project-brief.md. Public-page inventory and original HTML/sitemaps in docs/evidence/. Original published logo and existing website images in design/assets/. Images have not been verified as company-owned work photographs. Published testimonials have attributed source text; commercial claims need current verification before publication. Search Console/analytics data are not available yet.
+- Project decisions and public-page inventory: `docs/01-project-brief.md` and `docs/evidence/`.
+- Original logo/inherited media: `design/assets/`; original public source: `docs/evidence/source-baseline/`.
+- Generated room/backplate/curtain: `design/airflow-source/provenance.md`. This is a conceptual interior, not a verified installation or customer property.
+- Testimonials preserve attributed published text. Inherited media is not verified company-owned project photography. Commercial claims and inherited metadata claims still need current verification before publication. Search Console/analytics data are unavailable.
+- Finish handoff reports ten passing Playwright tests, including delayed-module mobile CLS regression, successful Astro check/build and reviewer disposition "ship for local review" with no mandatory visual fixes. This document records that handoff rather than substituting for evidence files.
+- Axe reported zero violations with eight hero contrast nodes incomplete because of image/canvas backgrounds. Manual visual readability was reviewed; numerical contrast conformance for those nodes is not established.
+- Software SwiftShader measured approximately 24fps at quality tier 2 with adaptive downscaling. Hardware-GPU smoothness remains unverified. Firefox/WebKit could not launch because host libraries were missing. No 60fps, all-browser or Safari/iPhone compliance claim is warranted.
+- Three fresh Lighthouse runs per profile and version are recorded in `docs/evidence/option-02/lighthouse-accepted/summary.json`: alternative Performance 100 mobile/desktop; median mobile LCP 1.807s, CLS 0, TBT 8ms; desktop LCP 0.469s, CLS 0.0003004, TBT 0ms. Final gzip totals: initial JavaScript 2,920 bytes (including 542 bytes inline navigation), deferred JavaScript 2,316 bytes, total JavaScript 5,236 bytes; CSS 4,696 bytes. These are local lab measurements, not field INP/CrUX evidence. See `docs/10-option-02-validation.md` for the final validation handoff.
 
 ## Product Principles
 
-- Protect existing search intent and useful pages during visual changes.
+- Protect existing search intent and useful destinations through visual changes.
 - Make calls and requests easy while supporting informed installation decisions.
 - Use factual business evidence; never invent badges, metrics or endorsements.
-- Review brand before desktop page design and design before Astro implementation.
+- Use the latest explicit approval for the current branch while preserving approved brand commitments.
+- Keep content useful with no JavaScript, reduced motion or unavailable WebGL.
+- Report measured evidence and remaining validation limits before publication.

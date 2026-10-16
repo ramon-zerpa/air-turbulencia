@@ -1,0 +1,21 @@
+# Generated interior provenance
+
+Generated with the built-in OpenAI image tool for this approved concept on 2026-10-15 (America/Caracas). Conceptual room; never a claim of company installation or customer ownership.
+
+1. `room-poster.png`: original complete conceptual room, generated from the brief below. Original output exec-2438e743-307d-4e2f-b31f-297dc6c360a7.png.
+2. `src/assets/airflow/room.png`: edit of the complete room removing only the curtain. Original output exec-8a3c29cd-5835-4c6f-90e1-2bd0c4e90899.png.
+3. `src/assets/airflow/curtain.png`: transparent curtain extracted from the original composition. Original output exec-0a749d0c-dc5f-4c0c-853a-8f12ac5ac741.png.
+
+The static on-page poster is composed of the clean room and the same transparent curtain layer used by WebGL; this avoids a visible change between two separately generated photographs. CSS and shader both place the full-frame curtain layer at 80% scene height. The original flattened poster is retained as design provenance, not shipped as a duplicate download. Static and animated states use the same optimized curtain URL; reduced-motion downloads no extra animation-only texture.
+
+## Generation prompt
+Use case: photorealistic-natural. Create a premium architectural interior photograph as the backdrop of an air conditioning website hero, very wide landscape 16:9 at highest available quality. Contemporary Tampa Florida living room, calm warm-white plaster walls, light oak floor, low cream linen sofa on the RIGHT lower portion, minimal ocean teal cushion, limestone table, bright white daylight. LEFT 43 percent is softly lit completely clean warm white plaster wall with subtle natural shadow and empty floor, reserved for HTML headline; no objects there. RIGHT 57 percent shows tall floor-to-ceiling glazing, softly out of focus tropical garden outside, and an unbranded white wall mounted air conditioner clearly visible on the upper right plaster area at approximately x=78%, y=20%, with horizontal louvers. A sheer white linen curtain hangs at far right window, blown gently toward center by cool indoor air, graceful sculptural folds. Sophisticated editorial architectural photography, natural materials, convincing realistic lens and geometry, fresh and airy rather than foggy. This is a conceptual interior, no people, no logos, no labels, no text, no arrows or drawn air trails, no watermark. The room must feel luminous and exceptionally spacious. Main furnishing stays in right half. Camera level, wide lens but no distortion.
+
+## Backplate edit prompt
+Edit this exact architectural photograph to create a clean animation backplate. REMOVE ONLY the white translucent curtain at the far right, including the flowing lower section in front of the right wall/window and just above the sofa. Reconstruct the wall and window behind it naturally. Preserve the EXACT camera, composition, room, windows, sofa, plants, air conditioner, lighting, colors, image dimensions and every other object, pixel-aligned as closely as possible. Do not change the air conditioner or the negative space left. No text, no new objects. Output same wide landscape composition.
+
+## Cutout edit prompt
+Use case: background-extraction. Extract ONLY the sheer white curtain from this photograph onto a truly TRANSPARENT background with alpha. Keep its exact shape, folds, delicate fabric, lighting and screen position. Preserve the original wide full-frame 1672x940 composition: curtain located only in far-right approx x79%-96%, y0%-58%; everything else fully transparent. No room, no wall, no air conditioner, no windows, no sofa, no plant, no shadows from furniture. Natural soft translucent edges, avoid opaque white background. This cutout will overlay the matching room photograph and be deformed as a textile mesh. Do not center or enlarge the curtain; preserve its existing position within the original full image canvas.
+
+## Inherited media
+Original logo, installation, repair, equipment and commercial images are inherited from the approved baseline and its existing public site inventory. They are reference imagery, not verified business-project photography. The original public HTML/source provenance remains in docs/evidence/source-baseline.
