@@ -19,3 +19,9 @@ Use case: background-extraction. Extract ONLY the sheer white curtain from this 
 
 ## Inherited media
 Original logo, installation, repair, equipment and commercial images are inherited from the approved baseline and its existing public site inventory. They are reference imagery, not verified business-project photography. The original public HTML/source provenance remains in docs/evidence/source-baseline.
+
+## Expertise section illustration
+`src/assets/expertise-technician.jpg` is the first generated variant (original output `exec-b3ba42ff-8c48-45d9-8bd8-ac5d3ba9dfa8.png`) converted from PNG to progressive JPEG at quality 85 on 2026-10-16. The source fell from 2,570,712 bytes to 264,211 bytes (89.7% smaller) at the original 1536 × 1024 dimensions. It depicts a generic HVAC technician diagnosing a residential condenser; it does not represent Air Turbulencia staff or a documented customer project. Astro generates responsive AVIF/WebP variants, with a compact JPEG fallback.
+
+### Generation prompt
+Photorealistic natural editorial photograph, wide 3:2 landscape framing. A skilled HVAC technician in plain unbranded workwear, in three-quarter profile, diagnosing an open residential central air-conditioning condenser beside a clean Florida home, using a digital manifold gauge and hand tools. Bright soft afternoon light, subtle Tampa Bay greenery, tidy residential setting, warm neutral exterior, professional approachable mood. Center technician and equipment with breathing room for responsive crops. No text, logos, company name, watermark, customer or dramatic effects. Illustrative editorial photography, not a documented installation.

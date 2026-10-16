@@ -5,9 +5,7 @@ export function initMotion() {
   if (!scene || !toggle) return;
   const surface = scene.querySelector<HTMLElement>(".scene-surface")!;
   const reduced = matchMedia("(prefers-reduced-motion: reduce)");
-  const fine = matchMedia(
-    "(hover: hover) and (pointer: fine) and (min-width: 1100px)",
-  );
+  const desktopParallax = matchMedia("(min-width: 1100px)");
   const connection = (
     navigator as Navigator & { connection?: { saveData?: boolean } }
   ).connection;
@@ -20,17 +18,53 @@ export function initMotion() {
     visible = true,
     destroyed = false,
     failed = false;
-  let pointerX = 0,
-    pointerY = 0,
-    scrollY = 0,
+  let scrollY = 0,
     queued = 0;
   const abort = new AbortController();
   const animations = new Map<HTMLElement, Animation>();
+  const pausedAnimations = new Set<Animation>();
   const seen = new WeakSet<HTMLElement>();
+  const titleHeadings = Array.from(
+    document.querySelectorAll<HTMLElement>("[data-title-flow]"),
+  );
+  const visibleTitleHeadings = new Set<HTMLElement>();
   const enabled = () => !paused && !reduced.matches && !connection?.saveData;
+  function syncTitleFlows() {
+    for (const heading of titleHeadings) {
+      const visible = visibleTitleHeadings.has(heading) && !document.hidden;
+      heading.dataset.flowVisible = String(visible);
+      if (enabled() && visible) heading.dataset.flowReady = "true";
+      else if (reduced.matches || connection?.saveData) {
+        delete heading.dataset.flowReady;
+      }
+    }
+  }
+  function pauseActiveAnimations() {
+    for (const animation of document.getAnimations()) {
+      if (
+        animation instanceof CSSAnimation &&
+        animation.animationName === "title-airflow-flow"
+      ) continue;
+      if (animation.playState === "running" || animation.pending) {
+        animation.pause();
+        pausedAnimations.add(animation);
+      }
+    }
+  }
+  function resumeActiveAnimations() {
+    for (const animation of pausedAnimations) {
+      if (animation.playState === "paused") animation.play();
+    }
+    pausedAnimations.clear();
+  }
+  function markStaticMotion(el: HTMLElement) {
+    el.closest<HTMLElement>(".process-steps li")?.setAttribute("data-motion-static", "");
+    el.closest<HTMLElement>(".final-call")?.setAttribute("data-motion-static", "");
+  }
   function finish(el: HTMLElement) {
     seen.add(el);
     el.dataset.entered = "true";
+    if (!enabled()) markStaticMotion(el);
     animations.get(el)?.finish();
     animations.delete(el);
   }
@@ -46,10 +80,28 @@ export function initMotion() {
         if (seen.has(el)) continue;
         seen.add(el);
         el.dataset.entered = "true";
-        if (!enabled() || entry.boundingClientRect.top < 0) continue;
+        if (!enabled()) {
+          markStaticMotion(el);
+          continue;
+        }
+        if (entry.boundingClientRect.top < 0) continue;
         const kind = el.dataset.reveal;
+        const compactPhoto = matchMedia("(max-width: 767px)").matches;
         const frames =
-          kind === "image"
+          kind === "photo"
+            ? [
+                {
+                  opacity: 0,
+                  transform: compactPhoto
+                    ? "translate3d(0, 38px, 0) scale(.88) rotate(-3deg)"
+                    : "translate3d(0, 60px, 0) scale(.8) rotate(-5deg)",
+                },
+                {
+                  opacity: 1,
+                  transform: "translate3d(0, 0, 0) scale(1) rotate(0deg)",
+                },
+              ]
+            : kind === "image"
             ? [
                 {
                   opacity: 0.45,
@@ -67,9 +119,9 @@ export function initMotion() {
                 { opacity: 1, transform: "none" },
               ];
         const anim = el.animate(frames, {
-          duration: kind === "image" ? 780 : 540,
+          duration: kind === "photo" ? 1150 : kind === "image" ? 780 : 540,
           delay: Math.min(Number(el.dataset.delay) || 0, 300),
-          easing: "cubic-bezier(.16,1,.3,1)",
+          easing: kind === "photo" ? "cubic-bezier(.2,.8,.2,1)" : "cubic-bezier(.16,1,.3,1)",
           fill: "none",
         });
         animations.set(el, anim);
@@ -81,17 +133,33 @@ export function initMotion() {
   document
     .querySelectorAll<HTMLElement>("[data-reveal]")
     .forEach((el) => entrances.observe(el));
+  const titleFlows = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        const heading = entry.target as HTMLElement;
+        if (entry.isIntersecting) visibleTitleHeadings.add(heading);
+        else visibleTitleHeadings.delete(heading);
+      }
+      syncTitleFlows();
+    },
+    { threshold: 0.01 },
+  );
+  titleHeadings.forEach((heading) => titleFlows.observe(heading));
   async function sync() {
     document.documentElement.dataset.motion = enabled() ? "running" : "paused";
+    syncTitleFlows();
     toggle!.hidden = reduced.matches || !!connection?.saveData;
     toggle!.setAttribute("aria-pressed", String(paused));
     toggle!.querySelector("span")!.textContent = paused
       ? "Resume animations"
       : "Pause animations";
     if (!enabled()) {
-      finishAll();
+      if (paused && !reduced.matches && !connection?.saveData) {
+        pauseActiveAnimations();
+      } else {
+        finishAll();
+      }
       engine?.pause();
-      surface.style.removeProperty("--scene-x");
       surface.style.removeProperty("--scene-y");
       if (reduced.matches || connection?.saveData) {
         engine?.destroy();
@@ -99,6 +167,7 @@ export function initMotion() {
       }
       return;
     }
+    resumeActiveAnimations();
     if (!visible || document.hidden) {
       engine?.pause();
       return;
@@ -153,33 +222,13 @@ export function initMotion() {
   sceneObserver.observe(scene);
   function paintPosition() {
     queued = 0;
-    if (enabled() && visible && fine.matches) {
-      surface.style.setProperty("--scene-x", `${pointerX}px`);
-      surface.style.setProperty("--scene-y", `${pointerY + scrollY}px`);
+    if (enabled() && visible && desktopParallax.matches) {
+      surface.style.setProperty("--scene-y", `${scrollY}px`);
     }
   }
   function position() {
     if (!queued) queued = requestAnimationFrame(paintPosition);
   }
-  scene.closest(".air-hero")?.addEventListener(
-    "pointermove",
-    (event) => {
-      if (!fine.matches || !enabled()) return;
-      const e = event as PointerEvent;
-      pointerX = (e.clientX / innerWidth - 0.5) * 12;
-      pointerY = (e.clientY / innerHeight - 0.5) * 8;
-      position();
-    },
-    { signal: abort.signal },
-  );
-  scene.closest(".air-hero")?.addEventListener(
-    "pointerleave",
-    () => {
-      pointerX = pointerY = 0;
-      position();
-    },
-    { signal: abort.signal },
-  );
   let previousScroll = window.scrollY;
   window.addEventListener(
     "scroll",
@@ -222,10 +271,12 @@ export function initMotion() {
       destroyed = true;
       engine?.destroy();
       entrances.disconnect();
+      titleFlows.disconnect();
       sceneObserver.disconnect();
       abort.abort();
       cancelAnimationFrame(queued);
       animations.forEach((a) => a.cancel());
+      pausedAnimations.clear();
     },
     { once: true },
   );

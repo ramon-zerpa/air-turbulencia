@@ -87,7 +87,7 @@
             {
               "id": "color-contrast",
               "data": {
-                "fontSize": "49.0pt (65.28px)",
+                "fontSize": "48.0pt (64px)",
                 "fontWeight": "normal",
                 "messageKey": "pseudoContent",
                 "expectedContrastRatio": "3:1"
@@ -107,9 +107,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<h1 id=\"hero-title\">AC installation<br class=\"desktop-break\"> in Tampa.<br><span>Comfort you<br class=\"desktop-break\"> can feel.</span></h1>",
+          "html": "<span class=\"airflow-title airflow-title--ink\">AC installation<br class=\"desktop-break\"> in Tampa.</span>",
           "target": [
-            "#hero-title"
+            "#hero-title > .airflow-title--ink.airflow-title"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -118,7 +118,7 @@
             {
               "id": "color-contrast",
               "data": {
-                "fontSize": "49.0pt (65.28px)",
+                "fontSize": "48.0pt (64px)",
                 "fontWeight": "normal",
                 "messageKey": "pseudoContent",
                 "expectedContrastRatio": "3:1"
@@ -138,9 +138,9 @@
           "all": [],
           "none": [],
           "impact": "serious",
-          "html": "<span>Comfort you<br class=\"desktop-break\"> can feel.</span>",
+          "html": "<span class=\"airflow-title airflow-title--ocean\">Comfort you<br class=\"desktop-break\"> can feel.</span>",
           "target": [
-            "#hero-title > span"
+            "#hero-title > .airflow-title--ocean.airflow-title"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         },
@@ -265,6 +265,192 @@
           "html": "<span>Pause animations</span>",
           "target": [
             ".motion-toggle > span"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "38.4pt (51.2px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h2 id=\"expertise-title\">Your home.<br>Our expertise.</h2>",
+          "target": [
+            "#expertise-title"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>We are proud to attend to the heating and cooling needs of the Tampa Bay Area and its surroundings for over 10 years.</p>",
+          "target": [
+            ".expertise-copy > p:nth-child(3)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>We focus on giving every customer their money’s worth: high-quality, reliable products and a professional installation.</p>",
+          "target": [
+            ".expertise-copy > p:nth-child(4)"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "12.0pt (16px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<a class=\"text-link\" href=\"https://www.airturbulencia.com/about-air-turbulencia/\">",
+          "target": [
+            ".expertise-copy > .text-link"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "22.5pt (30px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "3:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<h3>All makes. All models.</h3>",
+          "target": [
+            ".equipment-story > h3"
+          ],
+          "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
+        },
+        {
+          "any": [
+            {
+              "id": "color-contrast",
+              "data": {
+                "fontSize": "11.3pt (15px)",
+                "fontWeight": "normal",
+                "messageKey": "pseudoContent",
+                "expectedContrastRatio": "4.5:1"
+              },
+              "relatedNodes": [
+                {
+                  "html": "<section class=\"expertise-section dark-section section-pad\" aria-labelledby=\"expertise-title\">",
+                  "target": [
+                    ".expertise-section"
+                  ]
+                }
+              ],
+              "impact": "serious",
+              "message": "Element's background color could not be determined due to a pseudo element"
+            }
+          ],
+          "all": [],
+          "none": [],
+          "impact": "serious",
+          "html": "<p>We service all major makes and models, using hands-on experience to diagnose issues and deliver dependable repairs.</p>",
+          "target": [
+            ".equipment-story > p"
           ],
           "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a pseudo element"
         }

@@ -11,7 +11,7 @@ out vec2 v_uv;
 void main(){v_uv=a_position;gl_Position=vec4(a_position.x*2.-1.,1.-a_position.y*2.,0.,1.);}`;
 const clothVertex = `#version 300 es
 in vec2 a_position;out vec2 v_uv;uniform float u_time;uniform float u_strength;
-void main(){v_uv=a_position;vec2 p=a_position;float anchor=pow(p.y,1.7)*smoothstep(.7,.85,p.x);p.x+=sin(p.y*10.-u_time*1.05)*.009*anchor*u_strength;p.y=p.y*.8+sin(p.x*18.+u_time*.85)*.003*anchor*u_strength;gl_Position=vec4(p.x*2.-1.,1.-p.y*2.,0.,1.);}`;
+void main(){v_uv=a_position;vec2 p=a_position;float anchor=pow(p.y,1.7)*smoothstep(.7,.85,p.x);p.x+=sin(p.y*10.-u_time*1.05)*.018*anchor*u_strength;p.y=p.y*.8+sin(p.x*18.+u_time*.85)*.006*anchor*u_strength;gl_Position=vec4(p.x*2.-1.,1.-p.y*2.,0.,1.);}`;
 const clothFragment = `#version 300 es
 precision mediump float;in vec2 v_uv;uniform sampler2D u_texture;out vec4 color;
 void main(){color=texture(u_texture,v_uv);}`;
@@ -25,7 +25,7 @@ float dist=abs(p.x-center);float line=1.-smoothstep(width,width*3.,dist);
 float flow=.35+.65*pow(.5+.5*sin(s*24.-u_time*(1.25+f*.22)+f*1.8),2.);
 alpha+=line*flow*edge*.42;
 }
-vec3 tint=mix(vec3(.08,.37,.46),vec3(.94,.99,1.),.83);color=vec4(tint,min(alpha,.68)*u_strength);
+vec3 tint=mix(vec3(.55,.72,.75),vec3(.99,1.,.99),.93);color=vec4(tint,min(alpha,.68)*u_strength);
 }`;
 
 export async function createAirflow(

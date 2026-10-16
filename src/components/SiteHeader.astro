@@ -21,14 +21,14 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
       <details class="services-menu">
         <summary>Services <ChevronDown size={14} aria-hidden="true" /></summary>
         <div class="services-dropdown">
-          <div>
-            <p class="dropdown-title">Air Conditioning</p>
+          <details class="service-category" open>
+            <summary>Air Conditioning <ChevronDown size={14} aria-hidden="true" /></summary>
             <ul>{acServices.map(([name, path]) => <li><a href={pageLink(path)}>{name}</a></li>)}</ul>
-          </div>
-          <div>
-            <p class="dropdown-title">Heating</p>
+          </details>
+          <details class="service-category" open>
+            <summary>Heating <ChevronDown size={14} aria-hidden="true" /></summary>
             <ul>{heatingServices.map(([name, path]) => <li><a href={pageLink(path)}>{name}</a></li>)}</ul>
-          </div>
+          </details>
         </div>
       </details>
       <a href={pageLink('/ac-financing-tampa/')}>Financing</a>
@@ -44,12 +44,18 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
   const toggle = document.querySelector('.menu-toggle');
   const navigation = document.querySelector('#primary-navigation');
   const services = document.querySelector('.services-menu');
+  const serviceCategories = document.querySelectorAll('.service-category');
+  const mobileNavigation = window.matchMedia('(max-width: 1099px)');
+  const syncServiceCategories = () => {
+    serviceCategories.forEach((category) => { category.open = !mobileNavigation.matches; });
+  };
   const setOpen = (open) => {
     toggle?.setAttribute('aria-expanded', String(open));
     toggle?.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
     navigation?.classList.toggle('is-open', open);
   };
   toggle?.addEventListener('click', () => setOpen(toggle.getAttribute('aria-expanded') !== 'true'));
+  syncServiceCategories();
   document.addEventListener('keydown', (event) => {
     if (event.key !== 'Escape') return;
     if (services?.open) {
@@ -69,7 +75,11 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
     if (services?.open && event.target instanceof Node && !services.contains(event.target)) services.open = false;
   });
   navigation?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => setOpen(false)));
-  window.matchMedia('(min-width: 1100px)').addEventListener('change', () => setOpen(false));
+  mobileNavigation.addEventListener('change', () => {
+    setOpen(false);
+    if (services) services.open = false;
+    syncServiceCategories();
+  });
   document.querySelector('.site-header')?.classList.add('nav-enhanced');
   })();
 </script>

@@ -214,11 +214,15 @@ WebGL2 loads dynamically after the room decodes when motion is allowed. It pause
 
 Pause/resume affects scene and section entrances and persists in session storage. Reduced motion and Save-Data retain the static composition and hide the control. Reduced motion also disables CSS transitions/animations. Content remains visible without JavaScript.
 
+The hero H1 and first service-section H2 carry a continuous airflow texture clipped to their existing glyphs. A repeating, translucent SVG current moves right-to-left on the same shared pause control; the flow stops when its heading leaves the viewport and is removed for reduced motion, Save-Data, or no-JavaScript rendering. Contrast is checked at the WCAG large-text threshold because both headings render above 24px. The underlying ink and ocean colors remain the static readable fallback.
+
+The dark “Your home. Our expertise.” section uses a static ambient background: a small local fine-grain SVG tile and two soft Ocean/cool-white radial halos around the technician image. The decorative layer sits behind the copy and photo, adapts its halo position on mobile, and uses no animation, JavaScript, or external request. The technician photo has an 8px white print border, reduced to 6px on mobile, plus a soft shadow. It enters once with opacity, scale, upward travel, and a noticeable untwist; the shared motion control can pause and resume that entrance.
+
 Entrances occur once after intersection: text rises or shifts 22px over 540ms; images rise 20px with shallow clipping over 780ms. Delays cap at 300ms, using `cubic-bezier(.16,1,.3,1)`. Focus, hash navigation, rapid scrolling and pausing finish relevant entrances. Process rules draw over 850ms; the closing line enters over 1.1 seconds. Fine-pointer desktop parallax is bounded to ±6px horizontal, ±4px vertical and 24px scroll displacement; mobile has none.
 
 ### Logo and imagery
 
-Preserve the complete original logo on white. The hero is a conceptual interior, not evidence of company work. [Raster provenance](design/airflow-source/provenance.md) records the generated room/backplate/curtain. Inherited service/equipment imagery has original source evidence in `docs/evidence/source-baseline`; company ownership and customer identity remain unverified.
+Preserve the complete original logo on white. The hero is a conceptual interior, not evidence of company work. [Raster provenance](design/airflow-source/provenance.md) records the generated room/backplate/curtain and illustrative technician image. The expertise section technician is generic generated imagery, not evidence of Air Turbulencia staff or customer work. Other inherited service imagery has source evidence in `docs/evidence/source-baseline`.
 
 Astro emits responsive AVIF/WebP images. Hero loads eagerly with high priority; lower images load lazily. Reduced-motion rendering requires no duplicate animation-only curtain texture.
 

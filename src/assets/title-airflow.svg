@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="120" viewBox="0 0 360 120" fill="none" preserveAspectRatio="none">
+  <defs>
+    <filter id="soft-flow" x="-12%" y="-80%" width="124%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4.5" />
+    </filter>
+    <linearGradient id="stream-a" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#effcff" stop-opacity=".05" />
+      <stop offset=".2" stop-color="#effcff" stop-opacity=".3" />
+      <stop offset=".48" stop-color="#effcff" stop-opacity=".16" />
+      <stop offset=".78" stop-color="#effcff" stop-opacity=".3" />
+      <stop offset="1" stop-color="#effcff" stop-opacity=".05" />
+    </linearGradient>
+    <linearGradient id="stream-b" x1="0" y1="0" x2="360" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#effcff" stop-opacity=".05" />
+      <stop offset=".14" stop-color="#effcff" stop-opacity=".15" />
+      <stop offset=".38" stop-color="#effcff" stop-opacity=".3" />
+      <stop offset=".68" stop-color="#effcff" stop-opacity=".12" />
+      <stop offset=".9" stop-color="#effcff" stop-opacity=".28" />
+      <stop offset="1" stop-color="#effcff" stop-opacity=".05" />
+    </linearGradient>
+  </defs>
+  <path filter="url(#soft-flow)" d="M0 26 C22 12 68 12 90 26 S158 40 180 26 S248 12 270 26 S338 40 360 26" stroke="url(#stream-a)" stroke-width="7" />
+  <path filter="url(#soft-flow)" d="M0 60 C22 74 68 74 90 60 S158 46 180 60 S248 74 270 60 S338 46 360 60" stroke="url(#stream-b)" stroke-width="6" />
+  <path filter="url(#soft-flow)" d="M0 94 C22 80 68 80 90 94 S158 108 180 94 S248 80 270 94 S338 108 360 94" stroke="url(#stream-a)" stroke-width="6.5" />
+</svg>
