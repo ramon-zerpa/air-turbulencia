@@ -5,11 +5,13 @@ Disposition: ready for local user comparison, not a production migration release
 
 ## Recovery and previews
 
-- Original: `main`, baseline `4586934`, `../air-turbulencia`, http://127.0.0.1:4321/.
-- Alternative: `feat/homepage-02-airflow`, this worktree, http://127.0.0.1:4322/.
-- Main is clean. Alternative changes are uncommitted. The private GitHub repository
-  exists at https://github.com/ramon-zerpa/air-turbulencia; `git ls-remote origin`
-  returns no refs. No push, merge, Cloudflare connection or deployment occurred.
+- Selected option: `main`, commit `c0f54d5`, primary checkout,
+  http://127.0.0.1:4321/.
+- First approved option: `homepage-01-approved`, baseline `4586934`,
+  `../air-turbulencia-homepage-02`, http://127.0.0.1:4322/.
+- Both branches are clean and synchronized with the private GitHub repository
+  at https://github.com/ramon-zerpa/air-turbulencia. No Cloudflare connection or
+  production deployment occurred.
 - Both use the existing production canonical and deliberate `noindex, nofollow`.
   All 30 interior links continue to production. No URLs, redirects or sitemap
   endpoints changed; the full SEO migration gate remains required before launch.

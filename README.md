@@ -4,21 +4,22 @@ Second homepage option: responsive architectural hero, animated airflow and
 curtain, section entrances, pause control and static alternatives. Original logo,
 Archivo Black, Open Sans and the approved palette remain authoritative.
 
-Baseline `4586934` is preserved on `main` in `../air-turbulencia`, preview
-http://127.0.0.1:4321/. This checkout is `feat/homepage-02-airflow`, preview
-http://127.0.0.1:4322/. Alternative changes remain uncommitted for review.
-The private repository https://github.com/ramon-zerpa/air-turbulencia was created;
-no commits have been pushed. Git identity is configured locally only.
+`main` contains Comfort in Motion (`c0f54d5`), previewed at
+http://127.0.0.1:4321/. The first approved homepage remains on
+`homepage-01-approved` (`4586934`) in `../air-turbulencia-homepage-02`, previewed
+at http://127.0.0.1:4322/. Both branches are synchronized with the private
+repository https://github.com/ramon-zerpa/air-turbulencia. Git identity is
+configured locally only.
 
 ```powershell
 npm ci
 npm run check
 npm run build
-npm run preview -- --port 4322
+npm run preview -- --port 4321
 npm run test:ui
 ```
 
-Use `npm run dev -- --port 4322` for editing after stopping that preview.
+Use `npm run dev -- --port 4321` for editing after stopping that preview.
 Tests use an isolated Playwright Chromium headless
 runtime (`npx playwright install chromium --only-shell` on first setup), avoiding
 requests injected by extensions in the system Chrome installation.

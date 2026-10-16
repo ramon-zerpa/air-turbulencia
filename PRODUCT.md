@@ -26,7 +26,7 @@ Full-site redesign, beginning with the homepage. English only for now. Preserve 
 
 The current deliverable is a static-built homepage alternative, not a full-site migration. Interior links point to the published website, metadata/canonical remain inherited, and local preview retains `noindex, nofollow`. Service requests and calls use existing destinations; there is no new local request form.
 
-Baseline main is `4586934` in the original checkout. The approved alternative is isolated in `../air-turbulencia-homepage-02` on `feat/homepage-02-airflow`, previewed on 4322 while the baseline uses 4321. No baseline overwrite, push, merge or release is part of this delivery.
+The selected Comfort in Motion alternative is `main` at `c0f54d5`, previewed on 4321 in the primary checkout. The first approved homepage is preserved as `homepage-01-approved` at `4586934` in `../air-turbulencia-homepage-02`, previewed on 4322. Both branches are synchronized with the private GitHub repository. Cloudflare remains unconnected; no production deployment occurred.
 
 ## Brand Commitments
 

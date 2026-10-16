@@ -96,7 +96,7 @@ components:
 
 The approved alternative brings the sensation of conditioned air into a luminous architectural room. Broad photography, confident headings and generous space establish comfort; ocean actions and readable service information make the next step immediate. The original logo remains intact on white.
 
-This document records option 02 on `feat/homepage-02-airflow`, described in [the surface brief](docs/09-homepage-option-02.md). Its source authority is `src/styles/global.css`, the Astro components and the motion scripts. The user approved this code-led alternative with airflow, curtain motion and section entrances. The earlier Pencil-only composition and deferred-animation restrictions are superseded for this branch; the approved B brand identity remains binding. Original main at `4586934` remains a separate baseline.
+This document records option 02 on `main` (`c0f54d5`), described in [the surface brief](docs/09-homepage-option-02.md). Its source authority is `src/styles/global.css`, the Astro components and the motion scripts. The user approved this code-led alternative with airflow, curtain motion and section entrances. The earlier Pencil-only composition and deferred-animation restrictions are superseded for this branch; the approved B brand identity remains binding. The first approved homepage remains on `homepage-01-approved` (`4586934`).
 
 **Key Characteristics:**
 

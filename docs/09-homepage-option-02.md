@@ -11,7 +11,7 @@ FORM: Code-led composition explicitly approved; no additional Pencil round or ra
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance.
 
 ## Recovery and boundaries
-Baseline main commit: 4586934. Branch: feat/homepage-02-airflow. Separate worktree: ../air-turbulencia-homepage-02. Original preview 4321; alternative 4322. Git identity verified against authenticated GitHub profile and configured locally. Private repo: https://github.com/ramon-zerpa/air-turbulencia. No commits pushed.
+Selected branch `main` commit: `c0f54d5`. First approved option is preserved on `homepage-01-approved` at `4586934` in `../air-turbulencia-homepage-02`. Main preview: 4321; first option: 4322. Git identity verified against authenticated GitHub profile and configured locally. Private repo: https://github.com/ramon-zerpa/air-turbulencia. Both branches are synchronized.
 
 ## Content mapping
 | Existing | Alternative | Reason |
