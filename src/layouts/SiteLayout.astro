@@ -1,0 +1,44 @@
+---
+import '../styles/global.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import archivoFont from '@fontsource/archivo-black/files/archivo-black-latin-400-normal.woff2?url';
+import openSansFont from '@fontsource/open-sans/files/open-sans-latin-400-normal.woff2?url';
+
+interface Props { title?: string; description?: string; }
+const {
+  title = 'AC Installation Tampa Florida | (813) 815-1234 | Air Turbulencia',
+  description = 'AC installation, repair, and maintenance across Tampa Bay, FL. Speak with a licensed HVAC specialist and book a same-day appointment.',
+} = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+// The initial homepage build is for local review, never an indexable release.
+// Deployment remains gated until all legacy routes and migration checks pass.
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Air Turbulencia" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content="https://www.airturbulencia.com/images/banner-main-air-turbulencia-home-min.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#182D38" />
+    <link rel="preload" href={archivoFont} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={openSansFont} as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <SiteHeader />
+    <main id="main-content" tabindex="-1"><slot /></main>
+    <SiteFooter />
+  </body>
+</html>

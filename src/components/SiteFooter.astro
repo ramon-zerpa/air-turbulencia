@@ -1,0 +1,26 @@
+---
+import { acServices, heatingServices, exploreLinks, pageLink, site } from '../data/site';
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h2 class="footer-title">Air Turbulencia</h2>
+        <a href="/">Tampa Bay HVAC</a>
+        <a href={site.phoneHref}>{site.phone}</a>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
+        <address>4023 W Cayuga St<br />Tampa, FL 33614</address>
+      </div>
+      {[['AC / HVAC Services', acServices], ['Heating Services', heatingServices], ['Explore', exploreLinks]].map(([label, links]) => (
+        <div>
+          <h2 class="footer-title">{label}</h2>
+          <ul>{(links as typeof acServices | typeof heatingServices | typeof exploreLinks).map(([name, path]) => <li><a href={pageLink(path)}>{name}</a></li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <div class="footer-bottom">
+      <p>© {new Date().getFullYear()} Air Turbulencia Inc. All rights reserved.</p>
+      <div><a href={pageLink('/terms-conditions/')}>Terms &amp; Conditions</a><a href={pageLink('/privacy-policy/')}>Privacy Policy</a></div>
+    </div>
+  </div>
+</footer>

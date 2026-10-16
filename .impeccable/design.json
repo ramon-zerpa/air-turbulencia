@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T01:13:33.5607217Z",
+  "title": "Design System: Air Turbulencia",
+  "extensions": {
+    "colorMeta": {
+      "b-paper": {
+        "role": "neutral",
+        "displayName": "Paper"
+      },
+      "b-stone": {
+        "role": "neutral",
+        "displayName": "Stone"
+      },
+      "b-ink": {
+        "role": "neutral",
+        "displayName": "Ink"
+      },
+      "b-ocean": {
+        "role": "primary",
+        "displayName": "Ocean"
+      },
+      "b-amber": {
+        "role": "tertiary",
+        "displayName": "Amber — optional small detail"
+      },
+      "b-muted": {
+        "role": "neutral",
+        "displayName": "Muted"
+      },
+      "b-ocean-hover": {
+        "role": "primary",
+        "displayName": "Ocean hover"
+      },
+      "b-footer-rule": {
+        "role": "neutral",
+        "displayName": "Footer separator"
+      },
+      "b-line": {
+        "displayName": "Fine separator",
+        "role": "neutral"
+      },
+      "b-light-copy": {
+        "displayName": "Light secondary copy",
+        "role": "neutral"
+      },
+      "b-white": {
+        "displayName": "White",
+        "role": "neutral"
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Desktop H1 in Archivo Black 400; 44px at max-width 1099px and clamp(32px, 8vw, 42px) at max-width 767px."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Regular Open Sans body text and controls."
+      },
+      "body-emphasis": {
+        "displayName": "Body emphasis",
+        "purpose": "Semibold Open Sans body text and controls."
+      },
+      "title": {
+        "purpose": "Base desktop H2; source sections provide deliberate size overrides.",
+        "displayName": "Section title"
+      }
+    },
+    "shadows": [
+      {
+        "purpose": "Desktop Services dropdown only; removed at max-width 1099px.",
+        "value": "0 12px 30px #182d381a",
+        "name": "services-dropdown"
+      }
+    ],
+    "motion": [
+      {
+        "purpose": "Primary action hover; disabled by prefers-reduced-motion: reduce.",
+        "value": "background-color 160ms ease",
+        "name": "button-background"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "max-wide",
+        "value": "1350px"
+      },
+      {
+        "name": "max-compact-navigation",
+        "value": "1099px"
+      },
+      {
+        "name": "max-stacked",
+        "value": "767px"
+      },
+      {
+        "name": "max-narrow",
+        "value": "380px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "html": "<a class=\"ds-button\" href=\"https://www.airturbulencia.com/contact/\">Request Service</a>",
+      "css": ".ds-button { display: inline-flex; min-height: 52px; padding: 15px 24px; gap: 13px; align-items: center; justify-content: center; background: var(--ocean, #155e75); color: white; font-family: var(--body, Open Sans, Arial, sans-serif); font-size: 16px; font-weight: 600; line-height: 1.6; text-decoration: none; border: 1px solid transparent; border-radius: 4px; transition: background-color 160ms ease; } .ds-button:hover { background: #10495b; } .ds-button:focus-visible { outline: 3px solid var(--ocean, #155e75); outline-offset: 5px; } @media (prefers-reduced-motion: reduce) { .ds-button { transition: none; } }",
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Local homepage service/contact link; default, hover, and keyboard focus states."
+    },
+    {
+      "kind": "custom",
+      "description": "Inline service or information link on a light surface.",
+      "css": ".ds-text-link { display: inline-flex; gap: 8px; align-items: center; color: var(--ocean, #155e75); font-family: var(--body, Open Sans, Arial, sans-serif); font-weight: 600; font-size: 14px; line-height: 1.6; text-decoration: none; text-underline-offset: 4px; text-decoration-thickness: 1px; } .ds-text-link:hover { text-decoration: underline; } .ds-text-link:focus-visible { outline: 3px solid var(--ocean, #155e75); outline-offset: 5px; }",
+      "html": "<a class=\"ds-text-link\" href=\"https://www.airturbulencia.com/ac-repair-tampa/\">Explore service</a>",
+      "name": "Text link"
+    }
+  ],
+  "narrative": {
+    "northStar": "Calm & Established",
+    "overview": "Air Turbulencia's approved direction is calm, orderly, and established. Warm light surfaces, dark readable text, restrained ocean-blue actions, generous space, and clear typography support trust and informed service decisions. The original logo remains intact on white with space around it.\r\n\r\nVisual authority is approved brand board B (`IYSqH`) and desktop homepage (`gcKwa`) in `pencil-design/airturbulencia.pen`, including the approved Archivo Black, amber details, dark top bar/Service Area, and FAQ image/padding refinements. Option A remains archived and rejected. This document records the actual local Astro homepage in `src/styles/global.css`, `src/components/SiteHeader.astro`, and `src/pages/index.astro`; see [implementation evidence and limits](docs/08-local-implementation.md). The homepage is ready for local review. The remaining pages and production migration are incomplete, interiors link to the published website, and preview retains `noindex, nofollow`. No separate mobile design was approved. The hero is static; an animation effect remains deferred.",
+    "keyCharacteristics": [
+      "Warm paper and stone surfaces with readable ink and muted text.",
+      "Ocean-blue actions, fine rules, and Lucide line icons with restrained amber details.",
+      "Archivo Black headlines paired with Open Sans body text and controls.",
+      "An unchanged original logo with generous surrounding space.",
+      "Restrained corners and broad photography without decorative excess."
+    ],
+    "rules": [
+      {
+        "name": "The Restrained Amber Rule",
+        "body": "Amber is optional, small, and decorative; do not use it for small text on light backgrounds.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do use the approved B palette and typography as the visual authority.",
+      "Do preserve the complete original logo on white with space around it.",
+      "Do use ocean blue for actions and reserve amber for small icons, checks, and rules.",
+      "Do preserve readable contrast and visible keyboard focus in light and dark sections.",
+      "Do use the latest approved desktop composition, including its subsequent type and accent refinements."
+    ],
+    "donts": [
+      "Don't restore or extend the archived, rejected option A.",
+      "Don't recolor, redraw, or crop the original logo.",
+      "Don't use amber for small text on light backgrounds.",
+      "Don't present board photography as verified company work or customer evidence.",
+      "Don't present the local homepage as a completed full-site migration or as released production.",
+      "Don't invent badges, metrics, credentials, or endorsements."
+    ]
+  }
+}

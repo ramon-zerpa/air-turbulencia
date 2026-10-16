@@ -1,0 +1,144 @@
+---
+import { Picture } from 'astro:assets';
+import { ArrowUpRight, ArrowRight, Phone, Wind, Wrench, BuildingComplex, Check } from '@lucide/astro';
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { faqs, pageLink, serviceAreaGroups, site } from '../data/site';
+import hero from '../assets/hero.jpg';
+import repair from '../assets/repair.jpg';
+import installation from '../assets/installation.jpg';
+import equipment from '../assets/faq-equipment.jpg';
+
+const services = [
+  { title: 'Air Conditioning Installation', icon: Wind, body: 'Right-sized equipment beats oversized every time. We evaluate the home, recommend the system that fits, and provide a clear free estimate before any work starts.', path: '/air-conditioning-installation-tampa/' },
+  { title: 'Air Conditioning Repair', icon: Wrench, body: 'When the AC quits in the middle of a Florida afternoon, you want it fixed correctly the first time and at a fair price. That’s the whole job for us.', path: '/ac-repair-tampa/' },
+  { title: 'Commercial Air Conditioning', icon: BuildingComplex, body: 'Office, retail, restaurant — we install, service, and replace high-efficiency commercial HVAC systems built for steady duty cycles and lower bills.', path: '/commercial-ac-tampa/' },
+];
+const heating = [
+  { title: 'Heating Installation Tampa', body: 'Our installers work across every common make and model. We provide a free estimate so you know which heating system fits your home before committing.', path: '/heating-installation-tampa/' },
+  { title: 'Heating Repair Service', body: 'Tampa winters are short but sharp. When the heat fails, Air Turbulencia is the call — fast diagnosis, clean repair, no upsell.', path: '/heating-repair-tampa/' },
+];
+// The source of the published reviews, retained without fabricating ratings.
+const reviewsUrl = 'https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews';
+---
+<SiteLayout>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container">
+      <div class="hero-intro">
+        <div class="hero-heading">
+          <h1 id="hero-title">Trusted Specialists in AC Installation Tampa</h1>
+          <a class="button" href={pageLink('/contact/')}>Request Service <ArrowUpRight size={19} aria-hidden="true" /></a>
+        </div>
+        <div class="hero-copy">
+          <p>We are proud to attend to the heating and cooling needs of the Tampa Bay Area and its surroundings for over 10 years.</p>
+          <p>We are professionals who will take care of your AC installation in Tampa and your specific heating and cooling problems, such as repair and maintenance.</p>
+          <a class="text-link phone-link" href={site.phoneHref}><Phone size={18} aria-hidden="true" />Call {site.phone}</a>
+        </div>
+      </div>
+      <Picture src={hero} formats={['avif', 'webp']} widths={[640, 960, 1280, 1600]} sizes="(min-width: 1440px) 1264px, (min-width: 768px) calc(100vw - 96px), calc(100vw - 48px)" alt="A family together in a bright living room" class="hero-image" loading="eager" fetchpriority="high" decoding="async" />
+      <nav class="hero-service-links" aria-label="Popular services">
+        {[
+          ['AC Installation', '/air-conditioning-installation-tampa/'],
+          ['AC Repair', '/ac-repair-tampa/'],
+          ['AC Maintenance', '/ac-maintenance-tampa/'],
+          ['Commercial HVAC', '/commercial-ac-tampa/'],
+        ].map(([name, path]) => <a class="text-link" href={pageLink(path)}>{name}<ArrowRight size={16} aria-hidden="true" /></a>)}
+      </nav>
+    </div>
+  </section>
+
+  <section class="services section-space" aria-labelledby="services-title">
+    <div class="container editorial-grid">
+      <div class="services-intro">
+        <h2 id="services-title">Comfort for your home.<br />Care for your business.</h2>
+        <p>From a home AC repair to commercial HVAC, find the service that fits your heating and cooling needs.</p>
+        <Picture src={repair} formats={['avif', 'webp']} widths={[350, 600]} sizes="(min-width: 1100px) 350px, (min-width: 768px) 35vw, calc(100vw - 48px)" alt="A technician using pressure gauges to service air conditioning equipment" width={600} height={400} class="repair-detail" loading="lazy" />
+      </div>
+      <div class="service-list">
+        {services.map(({ title, icon: Icon, body, path }) => (
+          <article class="service-row">
+            <Icon size={28} class="amber service-icon" aria-hidden="true" />
+            <div><h3>{title}</h3><p>{body}</p><a class="text-link" href={pageLink(path)}>Explore service<ArrowRight size={16} aria-hidden="true" /></a></div>
+          </article>
+        ))}
+        <div class="additional-services">
+          <a class="text-link" href={pageLink('/ac-maintenance-tampa/')}>AC Maintenance<ArrowRight size={16} aria-hidden="true" /></a>
+          <a class="text-link" href={pageLink('/ac-emergency-tampa/')}>Emergency AC Service<ArrowRight size={16} aria-hidden="true" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="company dark-section" aria-labelledby="company-title">
+    <div class="container company-grid">
+      <div class="company-story">
+        <h2 id="company-title">Air Turbulencia</h2>
+        <h3>AC Installation Tampa</h3>
+        <span class="amber-rule" aria-hidden="true"></span>
+        <p>When it comes to your home’s air conditioner, you want the best of the best. The right equipment and the right contractor. With us, you get both: a free in-home assessment, a properly sized system, and a clean, professional install.</p>
+        <p>We focus on giving every customer their money’s worth, which means high-quality, reliable products and a finished install you don’t have to think about again.</p>
+        <a class="text-link" href={pageLink('/about-air-turbulencia/')}>Get to know our company<ArrowRight size={16} aria-hidden="true" /></a>
+      </div>
+      <div class="equipment-expertise">
+        <Wind size={42} class="amber" aria-hidden="true" />
+        <h3>All Makes and Models</h3>
+        <p>Our service team is capable of working on every major make and model. Even if your AC hasn’t been replaced in many years, we can help. Plenty of hands-on field experience means we work confidently on older and newer equipment.</p>
+        <p>Whatever the situation, our Tampa Bay technicians are equipped to give you a real diagnosis and a satisfactory fix the first time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="installation section-space" aria-labelledby="installation-title">
+    <div class="container installation-grid">
+      <Picture src={installation} formats={['avif', 'webp']} widths={[380, 600]} sizes="(min-width: 1100px) 566px, (min-width: 768px) 45vw, calc(100vw - 48px)" alt="An outdoor air conditioning unit beside a home" class="installation-image" loading="lazy" />
+      <div class="installation-copy">
+        <h2 id="installation-title">A system that fits.<br />A home that feels right.</h2>
+        <p>The right equipment and the right contractor. Start with a free in-home assessment, a properly sized system, and a clean, professional install.</p>
+        <ul class="installation-steps">
+          {['Evaluate your home’s heating and cooling needs.', 'Find the right-sized equipment for your space.', 'Get a clear estimate before work starts.'].map((text) => <li><Check class="amber" size={20} aria-hidden="true" />{text}</li>)}
+        </ul>
+        <div class="installation-links">
+          <a class="text-link" href={pageLink('/air-conditioning-installation-tampa/')}>Explore AC installation<ArrowRight size={16} aria-hidden="true" /></a>
+          <a class="text-link" href={pageLink('/ac-financing-tampa/')}>AC financing<ArrowRight size={16} aria-hidden="true" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="container heating-grid">
+      {heating.map(({ title, body, path }) => <article><h3>{title}</h3><p>{body}</p><a class="text-link" href={pageLink(path)}>Explore heating service<ArrowRight size={16} aria-hidden="true" /></a></article>)}
+    </div>
+  </section>
+
+  <section class="testimonials" aria-labelledby="testimonials-title">
+    <div class="container">
+      <div class="section-heading-row"><h2 id="testimonials-title">Testimonials</h2><a class="text-link" href={reviewsUrl}>Read Google reviews<ArrowRight size={16} aria-hidden="true" /></a></div>
+      <div class="reviews-grid">
+        <figure class="review-primary"><blockquote><p>“We called Angel at Air Turbulencia. Angel came to our office within a few hours, knew exactly what was wrong with our AC, and had it repaired in 20 minutes.”</p></blockquote><figcaption>Joe Welbourn · Google Review</figcaption></figure>
+        <figure class="review-secondary"><blockquote><p>“If I could give a 6-star rating I would. The owner Angel is awesome — if you need any kind of HVAC work done, call this guy. Trustworthy.”</p></blockquote><figcaption>Andrew Semryck · Google Review</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="service-area dark-section" aria-labelledby="service-area-title">
+    <div class="container coverage-grid">
+      <div><h2 id="service-area-title">Service Area</h2><p>Heating and cooling services for Tampa Bay and its surrounding communities. Ask our team about service at your location.</p><a class="text-link" href={pageLink('/air-turbulencia-service-area/')}>View all service areas<ArrowRight size={16} aria-hidden="true" /></a></div>
+      <div class="locality-grid">{serviceAreaGroups.map((group) => <ul>{group.map((city) => <li>{city}</li>)}</ul>)}</div>
+    </div>
+  </section>
+
+  <section class="faq section-space" aria-labelledby="faq-title">
+    <div class="container coverage-grid">
+      <div class="faq-intro">
+        <h2 id="faq-title">Before you call.</h2>
+        <a class="text-link" href={pageLink('/hvac-tips-faqs/')}>More questions &amp; answers<ArrowRight size={16} aria-hidden="true" /></a>
+        <Picture src={equipment} formats={['avif', 'webp']} widths={[380, 550]} sizes="(min-width: 1100px) 380px, (min-width: 768px) 35vw, calc(100vw - 48px)" alt="A selection of Goodman heating and air conditioning units" class="faq-image" loading="lazy" />
+      </div>
+      <div class="faq-list">{faqs.map(({ question, answer }) => <article><h3>{question}</h3><p>{answer}</p></article>)}</div>
+    </div>
+  </section>
+
+  <section class="closing" aria-labelledby="closing-title">
+    <div class="container closing-grid">
+      <div><h2 id="closing-title">If You’re Looking for<br />AC Installation Tampa</h2><span class="amber-rule" aria-hidden="true"></span><p>We are professionals who will take care of your specific heating and cooling problems, from install to repair to maintenance.</p></div>
+      <div class="closing-actions"><a class="button" href={pageLink('/contact/')}>Schedule an Appointment</a><a class="text-link" href={site.phoneHref}>or call {site.phone}</a></div>
+    </div>
+  </section>
+</SiteLayout>

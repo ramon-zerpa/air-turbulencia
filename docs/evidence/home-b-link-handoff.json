@@ -1,0 +1,192 @@
+{
+  "design_frame": "gcKwa",
+  "scope": "visual handoff; not functional link verification",
+  "pages": [
+    {
+      "destination": "https://www.airturbulencia.com/",
+      "existing_title": "AC Installation Tampa Florida | (813) 815-1234 | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/about-air-turbulencia/",
+      "existing_title": "About Us | Air Turbulencia | AC Services Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ac-emergency-tampa/",
+      "existing_title": "AC Emergency Service Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ac-financing-tampa/",
+      "existing_title": "AC Financing Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ac-maintenance-tampa/",
+      "existing_title": "AC Maintenance Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ac-repair-tampa/",
+      "existing_title": "AC Repair Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ac-zone-control-systems-tampa/",
+      "existing_title": "AC Zone Control Systems Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/air-conditioning-installation-tampa/",
+      "existing_title": "Air Conditioning Installation Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/air-conditioning-tips-tampa/",
+      "existing_title": "Air Conditioning Tips | Air Turbulencia Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/air-turbulencia-service-area/",
+      "existing_title": "Service Area | Air Turbulencia | AC Services Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/commercial-ac-tampa/",
+      "existing_title": "Commercial AC / HVAC Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/commercial-heating-tampa/",
+      "existing_title": "Commercial Heating Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/contact/",
+      "existing_title": "Contact Air Turbulencia | AC Services Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/ductless-mini-split-systems-tampa/",
+      "existing_title": "Ductless Mini Split Systems Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heat-pumps-service-tampa/",
+      "existing_title": "Heat Pumps Service Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-emergency-tampa/",
+      "existing_title": "Heating Emergency Service Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-furnaces-tampa/",
+      "existing_title": "Heating Furnaces Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-installation-tampa/",
+      "existing_title": "Heating Installation Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-maintenance-tampa/",
+      "existing_title": "Heating Maintenance Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-repair-tampa/",
+      "existing_title": "Heating Repair Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-tips-tampa/",
+      "existing_title": "Heating Tips | Air Turbulencia Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/heating-zone-control-systems-tampa/",
+      "existing_title": "Heating Zone Control Systems Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/high-efficiency-ac-systems/",
+      "existing_title": "High Efficiency AC Systems Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/hvac-heat-pumps-tampa/",
+      "existing_title": "HVAC Heat Pumps Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/hvac-tips-faqs/",
+      "existing_title": "AC / HVAC Tips & FAQs | Air Turbulencia Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/hybrid-heating-systems-tampa/",
+      "existing_title": "Hybrid Heating Systems Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/packaged-hvac-units-tampa/",
+      "existing_title": "Packaged HVAC Units Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/privacy-policy/",
+      "existing_title": "Privacy Policy | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/terms-conditions/",
+      "existing_title": "Terms & Conditions | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/thermostat-services-tampa/",
+      "existing_title": "Thermostat Services Tampa FL | Air Turbulencia",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    },
+    {
+      "destination": "https://www.airturbulencia.com/why-choose-air-turbulencia/",
+      "existing_title": "Why Choose Air Turbulencia | AC Services Tampa, FL",
+      "placement": "footer service or explore directory; homepage via brand/home link; legal pages via legal row",
+      "status": "implementation pending"
+    }
+  ]
+}

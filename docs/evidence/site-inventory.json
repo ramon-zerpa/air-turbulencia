@@ -1,0 +1,4182 @@
+{
+  "captured_at_utc": "2026-10-16T00:13:35.865406+00:00",
+  "source": "https://www.airturbulencia.com/",
+  "discovery": [
+    {
+      "url": "https://www.airturbulencia.com/robots.txt",
+      "final_url": "https://www.airturbulencia.com/robots.txt",
+      "status": 200
+    },
+    {
+      "url": "https://www.airturbulencia.com/sitemap.xml",
+      "final_url": "https://www.airturbulencia.com/sitemap-index.xml",
+      "status": 200
+    },
+    {
+      "url": "https://www.airturbulencia.com/sitemap-0.xml",
+      "final_url": "https://www.airturbulencia.com/sitemap-0.xml",
+      "status": 200
+    },
+    {
+      "url": "https://www.airturbulencia.com/sitemap-index.xml",
+      "final_url": "https://www.airturbulencia.com/sitemap-index.xml",
+      "status": 200
+    },
+    {
+      "url": "https://www.airturbulencia.com/sitemap-0.xml",
+      "final_url": "https://www.airturbulencia.com/sitemap-0.xml",
+      "status": 200
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.airturbulencia.com/",
+      "final_url": "https://www.airturbulencia.com/",
+      "status": 200,
+      "title": "AC Installation Tampa Florida | (813) 815-1234 | Air Turbulencia",
+      "description": "AC installation, repair, and maintenance across Tampa Bay, FL. Speak with a licensed HVAC specialist and book a same-day appointment.",
+      "canonical": "https://www.airturbulencia.com/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Trusted Specialists in AC Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Installation"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Repair"
+        },
+        {
+          "level": "h2",
+          "text": "Commercial Air Conditioning"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/banner-main-air-turbulencia-home-min.jpg",
+          "srcset": "/images/banner-main-air-turbulencia-home-min-800.jpg 800w,\n              /images/banner-main-air-turbulencia-home-min.jpg 1600w",
+          "sizes": "100vw",
+          "alt": "",
+          "width": "1600",
+          "height": "800",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "absolute inset-0 h-full w-full object-cover object-center"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Technician installing an air conditioning unit at a Tampa home",
+          "width": "800",
+          "height": "600",
+          "loading": "eager",
+          "decoding": "async",
+          "class": "block h-full w-full object-cover"
+        },
+        {
+          "src": "/images/ac-repair-home-remake-min.jpg",
+          "alt": "AC repair technician servicing an outdoor condenser",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "block h-full w-full object-cover"
+        },
+        {
+          "src": "/images/commercial-air-conditioning-tampa-min.jpg",
+          "alt": "Rooftop commercial air conditioning units",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "block h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#5b3834352f3a382f281b3a32292f2e29392e373e3538323a75383436",
+        "/cdn-cgi/l/email-protection#64070b0a100507101724050d16101116061108010a070d054a070b09",
+        "/cdn-cgi/l/email-protection#ddbeb2b3a9bcbea9ae9dbcb4afa9a8afbfa8b1b8b3beb4bcf3beb2b0",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/about-air-turbulencia/",
+      "final_url": "https://www.airturbulencia.com/about-air-turbulencia/",
+      "status": 200,
+      "title": "About Us | Air Turbulencia | AC Services Tampa, FL",
+      "description": "Air Turbulencia has served the Tampa Bay area for more than 10 years with AC installation, repair, and maintenance you can trust.",
+      "canonical": "https://www.airturbulencia.com/about-air-turbulencia/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "About Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Tampa Bay Area"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Reliable AC Maintenance by Certified and Licensed Technicians"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Services"
+        },
+        {
+          "level": "h2",
+          "text": "If you're looking for AC services in Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/banner-main-air-turbulencia-home-min.jpg",
+          "alt": "",
+          "width": "1793",
+          "height": "586",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "absolute inset-0 h-full w-full object-cover object-center"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "A certified Air Turbulencia technician at work in Tampa",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#95f6fafbe1f4f6e1e6d5f4fce7e1e0e7f7e0f9f0fbf6fcf4bbf6faf8",
+        "/cdn-cgi/l/email-protection#abc8c4c5dfcac8dfd8ebcac2d9dfded9c9dec7cec5c8c2ca85c8c4c6",
+        "/cdn-cgi/l/email-protection#ea8985849e8b899e99aa8b83989e9f98889f868f8489838bc4898587",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ac-emergency-tampa/",
+      "final_url": "https://www.airturbulencia.com/ac-emergency-tampa/",
+      "status": 200,
+      "title": "AC Emergency Service Tampa FL | Air Turbulencia",
+      "description": "24-hour emergency AC service in Tampa, FL. When your air conditioning fails, talk to our specialists for immediate attention.",
+      "canonical": "https://www.airturbulencia.com/ac-emergency-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC Emergency Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Emergency"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Emergency Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ac-emergency-tampa.jpg",
+          "alt": "AC Emergency Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "AC Emergency Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#04676b6a706567707744656d76707176667168616a676d652a676b69",
+        "/cdn-cgi/l/email-protection#086b67667c696b7c7b4869617a7c7d7a6a7d646d666b6169266b6765",
+        "/cdn-cgi/l/email-protection#accfc3c2d8cdcfd8dfeccdc5ded8d9deced9c0c9c2cfc5cd82cfc3c1",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ac-financing-tampa/",
+      "final_url": "https://www.airturbulencia.com/ac-financing-tampa/",
+      "status": 200,
+      "title": "AC Financing Tampa FL | Air Turbulencia",
+      "description": "AC financing in Tampa, FL. Replace your air conditioning system on a budget. Talk to the Air Turbulencia team for details.",
+      "canonical": "https://www.airturbulencia.com/ac-financing-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC Financing Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Financing"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "In the Tampa Area"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Financing Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ac-financing-tampa.jpg",
+          "alt": "AC Financing Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#187b77766c797b6c6b5879716a6c6d6a7a6d747d767b7179367b7775",
+        "/cdn-cgi/l/email-protection#53303c3d273230272013323a2127262131263f363d303a327d303c3e",
+        "/cdn-cgi/l/email-protection#f89b97968c999b8c8bb899918a8c8d8a9a8d949d969b9199d69b9795",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ac-maintenance-tampa/",
+      "final_url": "https://www.airturbulencia.com/ac-maintenance-tampa/",
+      "status": 200,
+      "title": "AC Maintenance Tampa FL | Air Turbulencia",
+      "description": "Preventative AC maintenance in Tampa, FL. Keep your system efficient, avoid breakdowns, and extend its life with routine service.",
+      "canonical": "https://www.airturbulencia.com/ac-maintenance-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC Maintenance Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Maintenance"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Maintenance Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ac-maintenance-tampa.jpg",
+          "alt": "AC Maintenance Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "AC Maintenance Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#0b6864657f6a687f784b6a62797f7e79697e676e6568626a25686466",
+        "/cdn-cgi/l/email-protection#6f0c00011b0e0c1b1c2f0e061d1b1a1d0d1a030a010c060e410c0002",
+        "/cdn-cgi/l/email-protection#95f6fafbe1f4f6e1e6d5f4fce7e1e0e7f7e0f9f0fbf6fcf4bbf6faf8",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ac-repair-tampa/",
+      "final_url": "https://www.airturbulencia.com/ac-repair-tampa/",
+      "status": 200,
+      "title": "AC Repair Tampa FL | Air Turbulencia",
+      "description": "Fast, fair AC repair in Tampa, FL. Licensed technicians, all makes and models, and a one-year parts and labor guarantee.",
+      "canonical": "https://www.airturbulencia.com/ac-repair-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC Repair Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Repair"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Why Tampa homeowners call Air Turbulencia first"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Repair Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ac-repair-tampa.jpg",
+          "alt": "AC Repair Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "AC Repair Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/legacy/ac-repair-tampa.jpg",
+          "alt": "Air Turbulencia technician repairing an air conditioner in Tampa",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#9bf8f4f5effaf8efe8dbfaf2e9efeee9f9eef7fef5f8f2fab5f8f4f6",
+        "/cdn-cgi/l/email-protection#bdded2d3c9dcdec9cefddcd4cfc9c8cfdfc8d1d8d3ded4dc93ded2d0",
+        "/cdn-cgi/l/email-protection#d6b5b9b8a2b7b5a2a596b7bfa4a2a3a4b4a3bab3b8b5bfb7f8b5b9bb",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ac-zone-control-systems-tampa/",
+      "final_url": "https://www.airturbulencia.com/ac-zone-control-systems-tampa/",
+      "status": 200,
+      "title": "AC Zone Control Systems Tampa FL | Air Turbulencia",
+      "description": "AC zone control system installation in Tampa, FL. Control the temperature of different areas of your home independently.",
+      "canonical": "https://www.airturbulencia.com/ac-zone-control-systems-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC Zone Control Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "AC Zone Control Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC Zone Control Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ac-zone-control-systems-tampa.jpg",
+          "alt": "AC Zone Control Systems Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "AC Zone Control Systems Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#6b0804051f0a081f182b0a02191f1e19091e070e0508020a45080406",
+        "/cdn-cgi/l/email-protection#72111d1c061311060132131b0006070010071e171c111b135c111d1f",
+        "/cdn-cgi/l/email-protection#cdaea2a3b9acaeb9be8daca4bfb9b8bfafb8a1a8a3aea4ace3aea2a0",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/air-conditioning-installation-tampa/",
+      "final_url": "https://www.airturbulencia.com/air-conditioning-installation-tampa/",
+      "status": 200,
+      "title": "Air Conditioning Installation Tampa FL | Air Turbulencia",
+      "description": "Air conditioning installation in Tampa, FL. Free in-home estimates, right-sized systems, and clean professional installs. Schedule today.",
+      "canonical": "https://www.airturbulencia.com/air-conditioning-installation-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Air Conditioning Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Installation"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "In the Tampa Area"
+        },
+        {
+          "level": "h2",
+          "text": "Why would you settle for anything less?"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Air Conditioning Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/air-conditioning-installation-tampa.jpg",
+          "alt": "Air Conditioning Installation Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Air Conditioning Installation Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "A Goodman air conditioning system installed by Air Turbulencia",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#4d2e2223392c2e393e0d2c243f39383f2f382128232e242c632e2220",
+        "/cdn-cgi/l/email-protection#77141819031614030437161e0503020515021b1219141e165914181a",
+        "/cdn-cgi/l/email-protection#9dfef2f3e9fcfee9eeddfcf4efe9e8efffe8f1f8f3fef4fcb3fef2f0",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/air-conditioning-tips-tampa/",
+      "final_url": "https://www.airturbulencia.com/air-conditioning-tips-tampa/",
+      "status": 200,
+      "title": "Air Conditioning Tips | Air Turbulencia Tampa, FL",
+      "description": "Practical air conditioning tips from the Tampa HVAC specialists at Air Turbulencia: choosing a system, saving energy, and basic maintenance.",
+      "canonical": "https://www.airturbulencia.com/air-conditioning-tips-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Air Conditioning Tips"
+        },
+        {
+          "level": "h2",
+          "text": "Choosing Your Air Conditioner"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Air Conditioning Tips"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/air-conditioning-tips-tampa.jpg",
+          "alt": "Air Conditioning Tips — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#34575b5a405557404774555d46404146564158515a575d551a575b59",
+        "/cdn-cgi/l/email-protection#6b0804051f0a081f182b0a02191f1e19091e070e0508020a45080406",
+        "/cdn-cgi/l/email-protection#c2a1adacb6a3a1b6b182a3abb0b6b7b0a0b7aea7aca1aba3eca1adaf",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/air-turbulencia-service-area/",
+      "final_url": "https://www.airturbulencia.com/air-turbulencia-service-area/",
+      "status": 200,
+      "title": "Service Area | Air Turbulencia | AC Services Tampa, FL",
+      "description": "Air Turbulencia serves the greater Tampa Bay area with AC and heating installation, repair, and maintenance. Same-day and 24-hour emergency service.",
+      "canonical": "https://www.airturbulencia.com/air-turbulencia-service-area/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Service Area"
+        },
+        {
+          "level": "h2",
+          "text": "Serving the Tampa Bay area"
+        },
+        {
+          "level": "h2",
+          "text": "Tampa Bay Area"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/banner-main-air-turbulencia-home-min.jpg",
+          "alt": "Service Area — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#75161a1b011416010635141c07010007170019101b161c145b161a18",
+        "/cdn-cgi/l/email-protection#8cefe3e2f8edeff8ffccede5fef8f9feeef9e0e9e2efe5eda2efe3e1",
+        "/cdn-cgi/l/email-protection#b8dbd7d6ccd9dbcccbf8d9d1cacccdcadacdd4ddd6dbd1d996dbd7d5",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/cdn-cgi/l/email-protection",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.airturbulencia.com/commercial-ac-tampa/",
+      "final_url": "https://www.airturbulencia.com/commercial-ac-tampa/",
+      "status": 200,
+      "title": "Commercial AC / HVAC Tampa FL | Air Turbulencia",
+      "description": "Commercial air conditioning in Tampa, FL. Installation, repair, and replacement of high-efficiency HVAC systems for any commercial building.",
+      "canonical": "https://www.airturbulencia.com/commercial-ac-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Commercial AC / HVAC Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Commercial Air Conditioning"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Commercial AC / HVAC Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/commercial-ac-tampa.jpg",
+          "alt": "Commercial AC / HVAC Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Commercial AC / HVAC Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#04676b6a706567707744656d76707176667168616a676d652a676b69",
+        "/cdn-cgi/l/email-protection#0e6d61607a6f6d7a7d4e6f677c7a7b7c6c7b626b606d676f206d6163",
+        "/cdn-cgi/l/email-protection#74171b1a001517000734151d06000106160118111a171d155a171b19",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/commercial-heating-tampa/",
+      "final_url": "https://www.airturbulencia.com/commercial-heating-tampa/",
+      "status": 200,
+      "title": "Commercial Heating Tampa FL | Air Turbulencia",
+      "description": "Commercial heating in Tampa, FL. Installation, repair, and replacement of commercial heating systems for any building.",
+      "canonical": "https://www.airturbulencia.com/commercial-heating-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Commercial Heating Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Commercial Heating System"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Commercial Heating Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/commercial-heating-tampa.jpg",
+          "alt": "Commercial Heating Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Commercial Heating Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#01626e6f75606275724160687375747363746d646f6268602f626e6c",
+        "/cdn-cgi/l/email-protection#07646869736664737447666e7573727565726b6269646e662964686a",
+        "/cdn-cgi/l/email-protection#dab9b5b4aebbb9aea99abbb3a8aeafa8b8afb6bfb4b9b3bbf4b9b5b7",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/contact/",
+      "final_url": "https://www.airturbulencia.com/contact/",
+      "status": 200,
+      "title": "Contact Air Turbulencia | AC Services Tampa, FL",
+      "description": "Reach out for AC installation, repair, or service in Tampa Bay. Same-day appointments and 24-hour emergency response.",
+      "canonical": "https://www.airturbulencia.com/contact/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Get in Touch"
+        },
+        {
+          "level": "h2",
+          "text": "Our Offices"
+        },
+        {
+          "level": "h2",
+          "text": "Contact Us Today!"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        }
+      ],
+      "forms": [
+        {
+          "id": "contact-form",
+          "class": "mt-6 rounded-xl bg-white p-6 shadow-sm ring-1 ring-[var(--color-border)] sm:p-8",
+          "novalidate": null
+        }
+      ],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#583b37362c393b2c2b1839312a2c2d2a3a2d343d363b3139763b3735",
+        "/cdn-cgi/l/email-protection#6f0c00011b0e0c1b1c2f0e061d1b1a1d0d1a030a010c060e410c0002",
+        "/cdn-cgi/l/email-protection#debdb1b0aabfbdaaad9ebfb7acaaabacbcabb2bbb0bdb7bff0bdb1b3",
+        "/cdn-cgi/l/email-protection#f3909c9d8792908780b3929a8187868191869f969d909a92dd909c9e",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/ductless-mini-split-systems-tampa/",
+      "final_url": "https://www.airturbulencia.com/ductless-mini-split-systems-tampa/",
+      "status": 200,
+      "title": "Ductless Mini Split Systems Tampa FL | Air Turbulencia",
+      "description": "Ductless mini split installation and repair in Tampa, FL. Energy-efficient cooling and heating with built-in zone control.",
+      "canonical": "https://www.airturbulencia.com/ductless-mini-split-systems-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Ductless Mini Split Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Ductless Mini Split Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Ductless Mini Split Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/ductless-mini-split-systems-tampa.jpg",
+          "alt": "Ductless Mini Split Systems Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Ductless Mini Split Systems Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#4d2e2223392c2e393e0d2c243f39383f2f382128232e242c632e2220",
+        "/cdn-cgi/l/email-protection#53303c3d273230272013323a2127262131263f363d303a327d303c3e",
+        "/cdn-cgi/l/email-protection#ea8985849e8b899e99aa8b83989e9f98889f868f8489838bc4898587",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heat-pumps-service-tampa/",
+      "final_url": "https://www.airturbulencia.com/heat-pumps-service-tampa/",
+      "status": 200,
+      "title": "Heat Pumps Service Tampa FL | Air Turbulencia",
+      "description": "Heat pump service, repair, and replacement in Tampa, FL. Keep your heat pump running efficiently with Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/heat-pumps-service-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heat Pumps Service Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heat Pumps Service"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Your heat pump needs service if"
+        },
+        {
+          "level": "h2",
+          "text": "Repair or replace?"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heat Pumps Service Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heat-pumps-service-tampa.jpg",
+          "alt": "Heat Pumps Service Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heat Pumps Service Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#1b7874756f7a786f685b7a72696f6e69796e777e7578727a35787476",
+        "/cdn-cgi/l/email-protection#32515d5c465351464172535b4046474050475e575c515b531c515d5f",
+        "/cdn-cgi/l/email-protection#34575b5a405557404774555d46404146564158515a575d551a575b59",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-emergency-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-emergency-tampa/",
+      "status": 200,
+      "title": "Heating Emergency Service Tampa FL | Air Turbulencia",
+      "description": "24-hour emergency heating service in Tampa, FL. When your heating fails, talk to our specialists for immediate attention.",
+      "canonical": "https://www.airturbulencia.com/heating-emergency-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Emergency Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heating Emergency"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Emergency Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-emergency-tampa.jpg",
+          "alt": "Heating Emergency Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Emergency Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#4e2d21203a2f2d3a3d0e2f273c3a3b3c2c3b222b202d272f602d2123",
+        "/cdn-cgi/l/email-protection#55363a3b213436212615343c27212027372039303b363c347b363a38",
+        "/cdn-cgi/l/email-protection#f89b97968c999b8c8bb899918a8c8d8a9a8d949d969b9199d69b9795",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-furnaces-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-furnaces-tampa/",
+      "status": 200,
+      "title": "Heating Furnaces Tampa FL | Air Turbulencia",
+      "description": "Furnace installation, repair, and maintenance in Tampa, FL. Efficient, comfortable heating from Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/heating-furnaces-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Furnaces Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "HVAC Heating Furnaces"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Furnaces Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-furnaces-tampa.jpg",
+          "alt": "Heating Furnaces Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Furnaces Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#8eede1e0faefedfafdceefe7fcfafbfcecfbe2ebe0ede7efa0ede1e3",
+        "/cdn-cgi/l/email-protection#93f0fcfde7f2f0e7e0d3f2fae1e7e6e1f1e6fff6fdf0faf2bdf0fcfe",
+        "/cdn-cgi/l/email-protection#f4979b9a8095978087b4959d86808186968198919a979d95da979b99",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-installation-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-installation-tampa/",
+      "status": 200,
+      "title": "Heating Installation Tampa FL | Air Turbulencia",
+      "description": "Heating system installation in Tampa, FL. Free estimates and the right-sized heating system for your home from Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/heating-installation-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heating Installation Service"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "In the Tampa Area"
+        },
+        {
+          "level": "h2",
+          "text": "How would you like to live more comfortably?"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Installation Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-installation-tampa.jpg",
+          "alt": "Heating Installation Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Installation Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Heating equipment installed by Air Turbulencia",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#23404c4d574240575063424a5157565141564f464d404a420d404c4e",
+        "/cdn-cgi/l/email-protection#3d5e5253495c5e494e7d5c544f49484f5f485158535e545c135e5250",
+        "/cdn-cgi/l/email-protection#86e5e9e8f2e7e5f2f5c6e7eff4f2f3f4e4f3eae3e8e5efe7a8e5e9eb",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-maintenance-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-maintenance-tampa/",
+      "status": 200,
+      "title": "Heating Maintenance Tampa FL | Air Turbulencia",
+      "description": "Heating system maintenance in Tampa, FL. Avoid breakdowns and keep your system efficient with routine service from Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/heating-maintenance-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Maintenance Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heating Maintenance Service"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Maintenance Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-maintenance-tampa.jpg",
+          "alt": "Heating Maintenance Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Maintenance Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#63000c0d170200171023020a1117161101160f060d000a024d000c0e",
+        "/cdn-cgi/l/email-protection#b3d0dcddc7d2d0c7c0f3d2dac1c7c6c1d1c6dfd6ddd0dad29dd0dcde",
+        "/cdn-cgi/l/email-protection#f5969a9b8194968186b5949c87818087978099909b969c94db969a98",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-repair-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-repair-tampa/",
+      "status": 200,
+      "title": "Heating Repair Tampa FL | Air Turbulencia",
+      "description": "Heating repair in Tampa, FL. Fast diagnosis, clean repairs, and a one-year parts and labor guarantee from Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/heating-repair-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Repair Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heating Repair Service"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Why Tampa homeowners call Air Turbulencia first"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Repair Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-repair-tampa.jpg",
+          "alt": "Heating Repair Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Repair Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/legacy/heating-repair-tampa.jpg",
+          "alt": "Air Turbulencia technician repairing a heating system in Tampa",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#10737f7e64717364635071796264656272657c757e7379713e737f7d",
+        "/cdn-cgi/l/email-protection#dfbcb0b1abbebcabac9fbeb6adabaaadbdaab3bab1bcb6bef1bcb0b2",
+        "/cdn-cgi/l/email-protection#fa9995948e9b998e89ba9b93888e8f88988f969f9499939bd4999597",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-tips-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-tips-tampa/",
+      "status": 200,
+      "title": "Heating Tips | Air Turbulencia Tampa, FL",
+      "description": "Practical heating tips from the Tampa HVAC specialists at Air Turbulencia: thermostat care, maintenance, reducing heat loss, and humidity.",
+      "canonical": "https://www.airturbulencia.com/heating-tips-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Tips"
+        },
+        {
+          "level": "h2",
+          "text": "Thermostat Maintenance"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Tips"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-tips-tampa.jpg",
+          "alt": "Heating Tips — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#20434f4e54414354536041495254555242554c454e4349410e434f4d",
+        "/cdn-cgi/l/email-protection#87e4e8e9f3e6e4f3f4c7e6eef5f3f2f5e5f2ebe2e9e4eee6a9e4e8ea",
+        "/cdn-cgi/l/email-protection#bcdfd3d2c8dddfc8cffcddd5cec8c9cedec9d0d9d2dfd5dd92dfd3d1",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/heating-zone-control-systems-tampa/",
+      "final_url": "https://www.airturbulencia.com/heating-zone-control-systems-tampa/",
+      "status": 200,
+      "title": "Heating Zone Control Systems Tampa FL | Air Turbulencia",
+      "description": "Heating zone control system installation in Tampa, FL. Control the temperature of different areas of your home independently.",
+      "canonical": "https://www.airturbulencia.com/heating-zone-control-systems-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Heating Zone Control Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Heating Zone Control Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Heating Zone Control Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/heating-zone-control-systems-tampa.jpg",
+          "alt": "Heating Zone Control Systems Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Heating Zone Control Systems Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#67040809130604131427060e1513121505120b0209040e064904080a",
+        "/cdn-cgi/l/email-protection#a4c7cbcad0c5c7d0d7e4c5cdd6d0d1d6c6d1c8c1cac7cdc58ac7cbc9",
+        "/cdn-cgi/l/email-protection#b8dbd7d6ccd9dbcccbf8d9d1cacccdcadacdd4ddd6dbd1d996dbd7d5",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/high-efficiency-ac-systems/",
+      "final_url": "https://www.airturbulencia.com/high-efficiency-ac-systems/",
+      "status": 200,
+      "title": "High Efficiency AC Systems Tampa FL | Air Turbulencia",
+      "description": "High-efficiency AC systems in Tampa, FL. Lower your energy bills with a properly sized, high-SEER system installed by Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/high-efficiency-ac-systems/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "High Efficiency AC Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "High Efficiency AC Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for High Efficiency AC Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/high-efficiency-ac-systems.jpg",
+          "alt": "High Efficiency AC Systems Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "High Efficiency AC Systems Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#20434f4e54414354536041495254555242554c454e4349410e434f4d",
+        "/cdn-cgi/l/email-protection#791a16170d181a0d0a3918100b0d0c0b1b0c151c171a1018571a1614",
+        "/cdn-cgi/l/email-protection#95f6fafbe1f4f6e1e6d5f4fce7e1e0e7f7e0f9f0fbf6fcf4bbf6faf8",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/hvac-heat-pumps-tampa/",
+      "final_url": "https://www.airturbulencia.com/hvac-heat-pumps-tampa/",
+      "status": 200,
+      "title": "HVAC Heat Pumps Tampa FL | Air Turbulencia",
+      "description": "HVAC heat pump installation, repair, and replacement in Tampa, FL. Energy-efficient year-round comfort from the heat pump specialists.",
+      "canonical": "https://www.airturbulencia.com/hvac-heat-pumps-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "HVAC Heat Pumps Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "HVAC Heat Pump Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Your heat pump needs service if"
+        },
+        {
+          "level": "h2",
+          "text": "Repair or replace?"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for HVAC Heat Pumps Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/hvac-heat-pumps-tampa.jpg",
+          "alt": "HVAC Heat Pumps Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "HVAC Heat Pumps Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#70131f1e04111304033011190204050212051c151e1319115e131f1d",
+        "/cdn-cgi/l/email-protection#a8cbc7c6dcc9cbdcdbe8c9c1dadcdddacaddc4cdc6cbc1c986cbc7c5",
+        "/cdn-cgi/l/email-protection#eb8884859f8a889f98ab8a82999f9e99899e878e8588828ac5888486",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/hvac-tips-faqs/",
+      "final_url": "https://www.airturbulencia.com/hvac-tips-faqs/",
+      "status": 200,
+      "title": "AC / HVAC Tips & FAQs | Air Turbulencia Tampa, FL",
+      "description": "Answers to common questions about air conditioning, heating, and ventilation from the Tampa HVAC specialists at Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/hvac-tips-faqs/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "AC / HVAC Tips & FAQs"
+        },
+        {
+          "level": "h2",
+          "text": "AC / HVAC Tips & FAQs"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for AC / HVAC Tips & FAQs"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/banner-main-air-turbulencia-home-min.jpg",
+          "alt": "AC / HVAC Tips & FAQs — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#ccafa3a2b8adafb8bf8cada5beb8b9beaeb9a0a9a2afa5ade2afa3a1",
+        "/cdn-cgi/l/email-protection#ef8c80819b8e8c9b9caf8e869d9b9a9d8d9a838a818c868ec18c8082",
+        "/cdn-cgi/l/email-protection#fa9995948e9b998e89ba9b93888e8f88988f969f9499939bd4999597",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/hybrid-heating-systems-tampa/",
+      "final_url": "https://www.airturbulencia.com/hybrid-heating-systems-tampa/",
+      "status": 200,
+      "title": "Hybrid Heating Systems Tampa FL | Air Turbulencia",
+      "description": "Hybrid heating system installation and repair in Tampa, FL. Efficient, flexible heating from the Air Turbulencia specialists.",
+      "canonical": "https://www.airturbulencia.com/hybrid-heating-systems-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Hybrid Heating Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Hybrid Heating Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Watch for these signs"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Hybrid Heating Systems Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/hybrid-heating-systems-tampa.jpg",
+          "alt": "Hybrid Heating Systems Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Hybrid Heating Systems Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#5e3d31302a3f3d2a2d1e3f372c2a2b2c3c2b323b303d373f703d3133",
+        "/cdn-cgi/l/email-protection#87e4e8e9f3e6e4f3f4c7e6eef5f3f2f5e5f2ebe2e9e4eee6a9e4e8ea",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/packaged-hvac-units-tampa/",
+      "final_url": "https://www.airturbulencia.com/packaged-hvac-units-tampa/",
+      "status": 200,
+      "title": "Packaged HVAC Units Tampa FL | Air Turbulencia",
+      "description": "Packaged HVAC unit installation and repair in Tampa, FL. Combine heating and cooling into one space-saving system.",
+      "canonical": "https://www.airturbulencia.com/packaged-hvac-units-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Packaged HVAC Units Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Packaged HVAC Systems"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Packaged HVAC Units Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/packaged-hvac-units-tampa.jpg",
+          "alt": "Packaged HVAC Units Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Packaged HVAC Units Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#27444849534644535467464e5553525545524b4249444e460944484a",
+        "/cdn-cgi/l/email-protection#65060a0b110406111625040c17111017071009000b060c044b060a08",
+        "/cdn-cgi/l/email-protection#bad9d5d4cedbd9cec9fadbd3c8cecfc8d8cfd6dfd4d9d3db94d9d5d7",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/privacy-policy/",
+      "final_url": "https://www.airturbulencia.com/privacy-policy/",
+      "status": 200,
+      "title": "Privacy Policy | Air Turbulencia",
+      "description": "How Air Turbulencia collects, uses, and protects your information when you use our website or services in the Tampa Bay area.",
+      "canonical": "https://www.airturbulencia.com/privacy-policy/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Privacy Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Information We Collect"
+        },
+        {
+          "level": "h2",
+          "text": "How We Use Your Information"
+        },
+        {
+          "level": "h2",
+          "text": "Service Providers"
+        },
+        {
+          "level": "h2",
+          "text": "Data Retention"
+        },
+        {
+          "level": "h2",
+          "text": "Your Choices"
+        },
+        {
+          "level": "h2",
+          "text": "Children's Privacy"
+        },
+        {
+          "level": "h2",
+          "text": "Changes to This Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Contact"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#8ae9e5e4feebe9fef9caebe3f8fefff8e8ffe6efe4e9e3eba4e9e5e7",
+        "/cdn-cgi/l/email-protection#a5c6cacbd1c4c6d1d6e5c4ccd7d1d0d7c7d0c9c0cbc6ccc48bc6cac8",
+        "/cdn-cgi/l/email-protection#b0d3dfdec4d1d3c4c3f0d1d9c2c4c5c2d2c5dcd5ded3d9d19ed3dfdd",
+        "/cdn-cgi/l/email-protection#b9dad6d7cdd8dacdcaf9d8d0cbcdcccbdbccd5dcd7dad0d897dad6d4",
+        "/cdn-cgi/l/email-protection#cfaca0a1bbaeacbbbc8faea6bdbbbabdadbaa3aaa1aca6aee1aca0a2",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.airturbulencia.com",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/terms-conditions/",
+      "final_url": "https://www.airturbulencia.com/terms-conditions/",
+      "status": 200,
+      "title": "Terms & Conditions | Air Turbulencia",
+      "description": "The terms governing your use of the Air Turbulencia website and our HVAC service relationships in the Tampa Bay area.",
+      "canonical": "https://www.airturbulencia.com/terms-conditions/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Terms & Conditions"
+        },
+        {
+          "level": "h2",
+          "text": "Acceptance of Terms"
+        },
+        {
+          "level": "h2",
+          "text": "Scope of Services"
+        },
+        {
+          "level": "h2",
+          "text": "Estimates and Pricing"
+        },
+        {
+          "level": "h2",
+          "text": "Payment Terms"
+        },
+        {
+          "level": "h2",
+          "text": "Warranties"
+        },
+        {
+          "level": "h2",
+          "text": "Cancellation and Rescheduling"
+        },
+        {
+          "level": "h2",
+          "text": "Limitation of Liability"
+        },
+        {
+          "level": "h2",
+          "text": "Website Use"
+        },
+        {
+          "level": "h2",
+          "text": "Intellectual Property"
+        },
+        {
+          "level": "h2",
+          "text": "Governing Law"
+        },
+        {
+          "level": "h2",
+          "text": "Changes"
+        },
+        {
+          "level": "h2",
+          "text": "Contact"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#5d3e3233293c3e292e1d3c342f29282f3f283138333e343c733e3230",
+        "/cdn-cgi/l/email-protection#7e1d11100a1f1d0a0d3e1f170c0a0b0c1c0b121b101d171f501d1113",
+        "/cdn-cgi/l/email-protection#96f5f9f8e2f7f5e2e5d6f7ffe4e2e3e4f4e3faf3f8f5fff7b8f5f9fb",
+        "/cdn-cgi/l/email-protection#d1b2bebfa5b0b2a5a291b0b8a3a5a4a3b3a4bdb4bfb2b8b0ffb2bebc",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.airturbulencia.com",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/thermostat-services-tampa/",
+      "final_url": "https://www.airturbulencia.com/thermostat-services-tampa/",
+      "status": 200,
+      "title": "Thermostat Services Tampa FL | Air Turbulencia",
+      "description": "Thermostat installation and service in Tampa, FL. Upgrade to a smart, wireless thermostat with help from Air Turbulencia.",
+      "canonical": "https://www.airturbulencia.com/thermostat-services-tampa/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Thermostat Services Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Air Conditioning Thermostats"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Thermostat Services Tampa"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/legacy/thermostat-services-tampa.jpg",
+          "alt": "Thermostat Services Tampa — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/ac-installation-home-remake-min.jpg",
+          "alt": "Thermostat Services Tampa — Air Turbulencia technicians",
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#0e6d61607a6f6d7a7d4e6f677c7a7b7c6c7b626b606d676f206d6163",
+        "/cdn-cgi/l/email-protection#5e3d31302a3f3d2a2d1e3f372c2a2b2c3c2b323b303d373f703d3133",
+        "/cdn-cgi/l/email-protection#60030f0e14010314132001091214151202150c050e0309014e030f0d",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    },
+    {
+      "url": "https://www.airturbulencia.com/why-choose-air-turbulencia/",
+      "final_url": "https://www.airturbulencia.com/why-choose-air-turbulencia/",
+      "status": 200,
+      "title": "Why Choose Air Turbulencia | AC Services Tampa, FL",
+      "description": "Why choose Air Turbulencia? Over 10 years in business, same-day service, 24-hour emergency response, and a satisfaction guarantee.",
+      "canonical": "https://www.airturbulencia.com/why-choose-air-turbulencia/",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Why Choose Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Owner-operated, not a franchise"
+        },
+        {
+          "level": "h2",
+          "text": "Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Has You Covered"
+        },
+        {
+          "level": "h2",
+          "text": "If You're Looking for Why Choose Air Turbulencia"
+        },
+        {
+          "level": "h2",
+          "text": "Testimonials"
+        },
+        {
+          "level": "h2",
+          "text": "Service Area"
+        }
+      ],
+      "images": [
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[67px] w-auto"
+        },
+        {
+          "src": "/images/ac-installation-tampa-logo.png",
+          "alt": "Air Turbulencia logo",
+          "width": "740",
+          "height": "268",
+          "class": "h-[84px] w-auto"
+        },
+        {
+          "src": "/images/banner-main-air-turbulencia-home-min.jpg",
+          "alt": "Why Choose Air Turbulencia — Air Turbulencia",
+          "width": "800",
+          "height": "600",
+          "fetchpriority": "high",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        },
+        {
+          "src": "/images/wave-turbulencia-back-min.png",
+          "alt": "",
+          "aria-hidden": "true",
+          "width": "2501",
+          "height": "704",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "pointer-events-none absolute inset-x-0 bottom-0 z-0 h-auto w-full select-none"
+        },
+        {
+          "src": "/images/goodman-ac-install-min.jpg",
+          "alt": "Air Turbulencia equipment lineup",
+          "width": "800",
+          "height": "500",
+          "loading": "lazy",
+          "decoding": "async",
+          "class": "h-full w-full object-cover"
+        }
+      ],
+      "forms": [],
+      "links": [
+        "#heating",
+        "#services",
+        "/",
+        "/about-air-turbulencia/",
+        "/ac-emergency-tampa/",
+        "/ac-financing-tampa/",
+        "/ac-maintenance-tampa/",
+        "/ac-repair-tampa/",
+        "/ac-zone-control-systems-tampa/",
+        "/air-conditioning-installation-tampa/",
+        "/air-conditioning-tips-tampa/",
+        "/air-turbulencia-service-area/",
+        "/cdn-cgi/l/email-protection#42212d2c362321363102232b3036373020372e272c212b236c212d2f",
+        "/cdn-cgi/l/email-protection#dbb8b4b5afbab8afa89bbab2a9afaea9b9aeb7beb5b8b2baf5b8b4b6",
+        "/cdn-cgi/l/email-protection#fd9e9293899c9e898ebd9c948f89888f9f889198939e949cd39e9290",
+        "/commercial-ac-tampa/",
+        "/commercial-heating-tampa/",
+        "/contact/",
+        "/ductless-mini-split-systems-tampa/",
+        "/heat-pumps-service-tampa/",
+        "/heating-emergency-tampa/",
+        "/heating-furnaces-tampa/",
+        "/heating-installation-tampa/",
+        "/heating-maintenance-tampa/",
+        "/heating-repair-tampa/",
+        "/heating-tips-tampa/",
+        "/heating-zone-control-systems-tampa/",
+        "/high-efficiency-ac-systems/",
+        "/hvac-heat-pumps-tampa/",
+        "/hvac-tips-faqs/",
+        "/hybrid-heating-systems-tampa/",
+        "/packaged-hvac-units-tampa/",
+        "/privacy-policy/",
+        "/terms-conditions/",
+        "/thermostat-services-tampa/",
+        "/why-choose-air-turbulencia/",
+        "https://www.facebook.com/airturbulencia/",
+        "https://www.google.com/search?q=Air+Turbulencia+Tampa+reviews",
+        "https://www.instagram.com/airturbulencia/",
+        "https://www.linkedin.com/company/air-turbulencia-inc./",
+        "tel:+18138151234"
+      ]
+    }
+  ],
+  "remaining": []
+}

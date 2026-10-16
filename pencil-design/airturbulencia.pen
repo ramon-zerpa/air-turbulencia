@@ -1,0 +1,3567 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "type": "frame",
+      "id": "IYSqH",
+      "x": 920,
+      "y": 9096,
+      "name": "Brand Board / B / Approved direction",
+      "clip": true,
+      "width": 1600,
+      "fill": "$b-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "NhVPU",
+          "name": "Brand board masthead",
+          "width": "fill_container",
+          "padding": [
+            50,
+            72,
+            28,
+            72
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "J80Km",
+              "name": "Board identifier",
+              "fill": "$b-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AIR TURBULENCIA  /  BRAND DIRECTION B",
+              "lineHeight": 1.5,
+              "fontFamily": "$b-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "AVLQc",
+              "name": "Review status label",
+              "fill": "$b-stone",
+              "cornerRadius": 4,
+              "padding": [
+                8,
+                14
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lI0Fx",
+                  "name": "Review status",
+                  "fill": "$b-muted",
+                  "content": "FOR REVIEW",
+                  "fontFamily": "$b-body",
+                  "fontSize": 11,
+                  "fontWeight": "600",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TSpM5",
+          "name": "Brand premise and original logo",
+          "width": "fill_container",
+          "gap": 64,
+          "padding": [
+            28,
+            72,
+            58,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "LuNkg",
+              "name": "Brand direction statement",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p7oaV",
+                  "name": "Direction title",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Calm &\nEstablished.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 72,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Evq19",
+                  "name": "Brand direction description",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A grounded, confident identity for a local heating and cooling specialist. Warm neutrals, deep blue and an unhurried visual rhythm.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 21
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K0EjJ",
+              "name": "Unchanged brand signature",
+              "width": 560,
+              "layout": "vertical",
+              "gap": 22,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jLKDZ",
+                  "name": "White logo presentation",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "padding": [
+                    50,
+                    52
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "qhvT9",
+                      "name": "Original Air Turbulencia logo / unchanged",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../design/assets/logo-original.png",
+                        "mode": "contain"
+                      },
+                      "width": 430,
+                      "height": 156
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MAWA6",
+                  "name": "Logo usage note",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The original signature stays intact. White space gives its blue and warm tones room to breathe.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oWwqa",
+          "name": "Color system",
+          "width": "fill_container",
+          "fill": "$b-stone",
+          "layout": "vertical",
+          "gap": 26,
+          "padding": [
+            44,
+            72,
+            52,
+            72
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ULEOg",
+              "name": "Color system heading",
+              "fill": "$b-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Color system",
+              "lineHeight": 1.5,
+              "fontFamily": "$b-heading",
+              "fontSize": 28,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "o72kLg",
+              "name": "Palette swatches",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "agJ8T",
+                  "name": "Warm White swatch",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "ruDdQ",
+                      "name": "Warm White color",
+                      "fill": "#FAFAF7",
+                      "width": "fill_container",
+                      "height": 120,
+                      "stroke": "#FAFAF7",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "P2S7OS",
+                      "name": "Warm White name",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Warm White",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s8ZvL",
+                      "name": "Warm White hex",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "#FAFAF7  ·  Main canvas",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KMtHj",
+                  "name": "Soft Stone swatch",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "fBLy7",
+                      "name": "Soft Stone color",
+                      "fill": "#EEEFEA",
+                      "width": "fill_container",
+                      "height": 120,
+                      "stroke": "#D2D5CE",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jw7rq",
+                      "name": "Soft Stone name",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Soft Stone",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hvb3j",
+                      "name": "Soft Stone hex",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "#EEEFEA  ·  Quiet surfaces",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qyUnE",
+                  "name": "Deep Ink swatch",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "J5nHEW",
+                      "name": "Deep Ink color",
+                      "fill": "#182D38",
+                      "width": "fill_container",
+                      "height": 120,
+                      "stroke": "#182D38",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "yi9bR",
+                      "name": "Deep Ink name",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Deep Ink",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YRKTJ",
+                      "name": "Deep Ink hex",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "#182D38  ·  Headings & text",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xDTtI",
+                  "name": "Ocean Blue swatch",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "qMQOp",
+                      "name": "Ocean Blue color",
+                      "fill": "#155E75",
+                      "width": "fill_container",
+                      "height": 120,
+                      "stroke": "#155E75",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "oI3RH",
+                      "name": "Ocean Blue name",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ocean Blue",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DQKvn",
+                      "name": "Ocean Blue hex",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "#155E75  ·  Actions & links",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zJ2U4",
+                  "name": "Amber swatch",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 9,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 4,
+                      "id": "A7ErQ",
+                      "name": "Amber color",
+                      "fill": "#D97706",
+                      "width": "fill_container",
+                      "height": 120,
+                      "stroke": "#D97706",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "vDc9u",
+                      "name": "Amber name",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Amber",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hYhGy",
+                      "name": "Amber hex",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "#D97706  ·  Small accents",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "IzSM9",
+          "name": "Typography and voice",
+          "width": "fill_container",
+          "gap": 60,
+          "padding": [
+            58,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "s7fJEz",
+              "name": "Type specimens",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ix9g5",
+                  "name": "Typography heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Typography",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "haHNs",
+                  "name": "Poppins specimen",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Comfort, without\ncomplication.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 57,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "oKaui",
+                  "name": "Typeface specification",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "POPPINS MEDIUM / SEMIBOLD  ·  HEADINGS",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "mPTrs",
+                  "name": "Open Sans specimen",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The right equipment and the right contractor. Clear advice, thoughtful details and a more comfortable home.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 20
+                },
+                {
+                  "type": "text",
+                  "id": "G0vDR",
+                  "name": "Body type specification",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "OPEN SANS REGULAR / SEMIBOLD  ·  BODY & CONTROLS",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "oAxTR",
+                  "name": "Specimen disclaimer",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Type specimen only. Homepage titles and search intent will be preserved during page design.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 13
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "DRY23",
+              "name": "Verbal character",
+              "width": 440,
+              "fill": "$b-ink",
+              "layout": "vertical",
+              "gap": 26,
+              "padding": 36,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UmnS8",
+                  "name": "Verbal character heading",
+                  "fill": "$b-paper",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Clear.\nCapable.\nReassuring.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 40,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "text",
+                  "id": "i3jrY",
+                  "name": "Verbal character description",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Speak plainly. Explain the next step. Let genuine work and useful information earn trust.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "BxcB3",
+                  "name": "Voice constraints",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No inflated promises.\nNo manufactured urgency.\nNo invented credentials.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Cgq5f",
+          "name": "Photography direction",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            50,
+            72,
+            56,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZuY4b",
+              "name": "Photography introduction",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KmtmC",
+                  "name": "Photography title",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Photography",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "Fn5SM",
+                  "name": "Photography direction note",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": 650,
+                  "content": "Natural light. Real spaces. Work in detail.\nKeep equipment and people grounded in their surroundings.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t8t3x",
+              "name": "Photography references from existing website",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M63uJS",
+                  "name": "Hands at work",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "euDa8",
+                      "name": "Hands at work existing image",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../design/assets/repair.jpg",
+                        "mode": "cover"
+                      },
+                      "width": "fill_container",
+                      "height": 315
+                    },
+                    {
+                      "type": "text",
+                      "id": "KXZde",
+                      "name": "Hands at work caption",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Detail: tools, hands and the work itself.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "STZgz",
+                  "name": "Equipment in context",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "B3pWS",
+                      "name": "Equipment in context existing image",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "../design/assets/installation.jpg",
+                        "mode": "cover"
+                      },
+                      "width": "fill_container",
+                      "height": 315
+                    },
+                    {
+                      "type": "text",
+                      "id": "VIUoo",
+                      "name": "Equipment in context caption",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Context: equipment as part of a home.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oGbim",
+              "name": "Image provenance note",
+              "fill": "$b-muted",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "References recovered from the current website. Ownership and authenticity as Air Turbulencia project photos remain unverified; not presented as proof of company work.",
+              "lineHeight": 1.5,
+              "fontFamily": "$b-body",
+              "fontSize": 12
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oWmQP",
+          "name": "Brand application samples",
+          "width": "fill_container",
+          "fill": "$b-stone",
+          "gap": 64,
+          "padding": [
+            50,
+            72
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "i2yqN",
+              "name": "Interaction language",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "o3DmUp",
+                  "name": "Applications heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A quiet, useful interface.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 28,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "xe4fP",
+                  "name": "Action samples",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BzNet",
+                      "name": "Ocean primary action",
+                      "fill": "$b-ocean",
+                      "cornerRadius": 4,
+                      "gap": 12,
+                      "padding": [
+                        17,
+                        25
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "V0gTRM",
+                          "name": "Primary label",
+                          "fill": "#FFFFFF",
+                          "content": "Request Service",
+                          "fontFamily": "$b-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "b8nI8",
+                          "name": "Action arrow",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XcNLr",
+                      "name": "Secondary contact",
+                      "fill": "$b-paper",
+                      "cornerRadius": 4,
+                      "stroke": "$b-ocean",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        17,
+                        22
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Ag6Dq",
+                          "name": "Telephone icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "phone",
+                          "library": "lucide",
+                          "fill": "$b-ocean"
+                        },
+                        {
+                          "type": "text",
+                          "id": "pG8Zz",
+                          "name": "Secondary label",
+                          "fill": "$b-ocean",
+                          "content": "Call Our Team",
+                          "fontFamily": "$b-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "tqAls",
+                  "name": "Interaction note",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ocean blue leads actions. Amber stays a small supporting accent. Corners are restrained; spacing creates hierarchy.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YWIpE",
+              "name": "Graphic language",
+              "width": 440,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PApLh",
+                  "name": "Graphic heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Small details. One language.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-heading",
+                  "fontSize": 20,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "frame",
+                  "id": "ud8kW",
+                  "name": "Consistent line icons",
+                  "gap": 26,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "mjpOE",
+                      "name": "wind brand icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "wind",
+                      "library": "lucide",
+                      "fill": "$b-ocean"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "MoCt9",
+                      "name": "thermometer brand icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "thermometer",
+                      "library": "lucide",
+                      "fill": "$b-ocean"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "cyECW",
+                      "name": "wrench brand icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "wrench",
+                      "library": "lucide",
+                      "fill": "$b-ocean"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "a8eeZ",
+                      "name": "house brand icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "house",
+                      "library": "lucide",
+                      "fill": "$b-ocean"
+                    }
+                  ]
+                },
+                {
+                  "type": "rectangle",
+                  "id": "HHzSf",
+                  "name": "Amber detail",
+                  "fill": "$b-amber",
+                  "width": 48,
+                  "height": 3
+                },
+                {
+                  "type": "text",
+                  "id": "yApfk",
+                  "name": "Graphic note",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Consistent line icons. Fine rules. Real information instead of decorative badges.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PQADW",
+          "name": "Brand board close",
+          "width": "fill_container",
+          "fill": "$b-ink",
+          "gap": 40,
+          "padding": [
+            28,
+            72
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "u8izo",
+              "name": "Brand signature statement",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AIR TURBULENCIA",
+              "lineHeight": 1.5,
+              "fontFamily": "$b-heading",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "TgeUu",
+              "name": "Board boundary",
+              "fill": "#D7E2E5",
+              "textGrowth": "fixed-width",
+              "width": 580,
+              "content": "BRAND BOARD B  /  HOMEPAGE DESKTOP FOLLOWS REVIEW",
+              "lineHeight": 1.5,
+              "fontFamily": "$b-body",
+              "fontSize": 11,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "gcKwa",
+      "x": 2700,
+      "y": 9096,
+      "name": "Homepage / B / Desktop 1440 / Review",
+      "clip": true,
+      "width": 1440,
+      "fill": "$b-paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "PFbW9",
+          "name": "Local service and telephone",
+          "width": "fill_container",
+          "fill": "$b-ink",
+          "padding": [
+            9,
+            88
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "NHod9",
+              "name": "Service region",
+              "fill": "#D7E2E5",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Heating & cooling for Tampa Bay",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 12
+            },
+            {
+              "type": "text",
+              "id": "Niig9",
+              "name": "Header telephone",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 180,
+              "content": "(813) 815-1234",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 13,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C2HMih",
+          "name": "White brand header",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "padding": [
+            20,
+            88
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "fvlY6",
+              "name": "Original logo unchanged",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../design/assets/logo-original.png",
+                "mode": "contain"
+              },
+              "width": 211,
+              "height": 77
+            },
+            {
+              "type": "frame",
+              "id": "tEP5i",
+              "name": "Primary navigation",
+              "gap": 27,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uC3IL",
+                  "name": "Services navigation",
+                  "fill": "$b-ink",
+                  "content": "Services",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "zowKk",
+                  "name": "Financing navigation",
+                  "fill": "$b-ink",
+                  "content": "Financing",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "AJGMV",
+                  "name": "Service Area navigation",
+                  "fill": "$b-ink",
+                  "content": "Service Area",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wRvT5",
+                  "name": "About Us navigation",
+                  "fill": "$b-ink",
+                  "content": "About Us",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "E4iKn",
+                  "name": "Resources navigation",
+                  "fill": "$b-ink",
+                  "content": "Resources",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "AdEOB",
+              "name": "Header Request Service action",
+              "fill": "$b-ocean",
+              "cornerRadius": 4,
+              "gap": 12,
+              "padding": [
+                15,
+                21
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SlgOu",
+                  "name": "Header Request Service label",
+                  "fill": "#FFFFFF",
+                  "content": "Request Service",
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "I6ZnWN",
+                  "name": "Header action arrow",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-up-right",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZpAoG",
+          "name": "Panoramic hero / original search intent",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "layout": "vertical",
+          "gap": 38,
+          "padding": [
+            58,
+            88,
+            0,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "z7d9z6",
+              "name": "Headline and service introduction",
+              "width": "fill_container",
+              "gap": 72,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ztCf4",
+                  "name": "H1 and primary action",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 27,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "C7YvR",
+                      "name": "H1 / unchanged original homepage text",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Trusted Specialists in AC Installation Tampa",
+                      "lineHeight": 1.15,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 52,
+                      "letterSpacing": -0.7
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gv5c9",
+                      "name": "Hero Request Service action",
+                      "fill": "$b-ocean",
+                      "cornerRadius": 4,
+                      "gap": 13,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T6PnQ",
+                          "name": "Hero Request Service label",
+                          "fill": "#FFFFFF",
+                          "content": "Request Service",
+                          "fontFamily": "$b-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "gDA3K",
+                          "name": "Hero action arrow",
+                          "width": 19,
+                          "height": 19,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YjI59",
+                  "name": "Original service introduction",
+                  "width": 400,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HYKOV",
+                      "name": "Original introduction",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We are proud to attend to the heating and cooling needs of the Tampa Bay Area and its surroundings for over 10 years.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 18
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z6gKfC",
+                      "name": "Original service scope",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We are professionals who will take care of your AC installation in Tampa and your specific heating and cooling problems, such as repair and maintenance.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZOt8r",
+                      "name": "Hero phone contact",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "LX246",
+                          "name": "Call telephone icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "phone",
+                          "library": "lucide",
+                          "fill": "$b-ocean"
+                        },
+                        {
+                          "type": "text",
+                          "id": "XhsCx",
+                          "name": "Hero phone number",
+                          "fill": "$b-ocean",
+                          "content": "Call (813) 815-1234",
+                          "fontFamily": "$b-body",
+                          "fontSize": 16,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "r6qSo",
+              "name": "Existing home comfort panorama",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../design/assets/home-banner.jpg",
+                "mode": "cover"
+              },
+              "width": "fill_container",
+              "height": 430
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GzvKD",
+          "name": "Panorama caption and quick links",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "stroke": "#D9DFDB",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "gap": 32,
+          "padding": [
+            22,
+            88,
+            28,
+            88
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "eFRLL",
+              "name": "AC Installation quick link",
+              "fill": "$b-ocean",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AC Installation →",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "kxpTD",
+              "name": "AC Repair quick link",
+              "fill": "$b-ocean",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AC Repair →",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "l2BDt",
+              "name": "AC Maintenance quick link",
+              "fill": "$b-ocean",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AC Maintenance →",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "XSmpU",
+              "name": "Commercial HVAC quick link",
+              "fill": "$b-ocean",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Commercial HVAC →",
+              "lineHeight": 1.6,
+              "fontFamily": "$b-body",
+              "fontSize": 14,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nGF6v",
+          "name": "Services / editorial overview",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "gap": 80,
+          "padding": [
+            84,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "JhrMC",
+              "name": "Services introduction and detail photo",
+              "width": 350,
+              "layout": "vertical",
+              "gap": 26,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uU7U0",
+                  "name": "Services overview heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Comfort for your home.\nCare for your business.",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 34,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "f6Ckz",
+                  "name": "Services supporting copy",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "From a home AC repair to commercial HVAC, find the service that fits your heating and cooling needs.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "rectangle",
+                  "id": "f8c0rh",
+                  "name": "Repair detail from current website",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../design/assets/repair.jpg",
+                    "mode": "cover"
+                  },
+                  "width": "fill_container",
+                  "height": 270
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RBPQP",
+              "name": "Primary service list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SkV95",
+                  "name": "Air Conditioning Installation editorial row",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 22,
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "YVmni",
+                      "name": "Air Conditioning Installation icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "wind",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TIo8G",
+                      "name": "Air Conditioning Installation content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qBdnm",
+                          "name": "Air Conditioning Installation heading",
+                          "fill": "$b-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Air Conditioning Installation",
+                          "lineHeight": 1.22,
+                          "fontFamily": "$b-heading-trial",
+                          "fontSize": 23
+                        },
+                        {
+                          "type": "text",
+                          "id": "QQdIY",
+                          "name": "Air Conditioning Installation original copy",
+                          "fill": "$b-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Right-sized equipment beats oversized every time. We evaluate the home, recommend the system that fits, and provide a clear free estimate before any work starts.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "mQmsS",
+                          "name": "Air Conditioning Installation link",
+                          "fill": "$b-ocean",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Explore service →",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IloMP",
+                  "name": "Air Conditioning Repair editorial row",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 22,
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Br0Dd",
+                      "name": "Air Conditioning Repair icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "wrench",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c6y0v",
+                      "name": "Air Conditioning Repair content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "J4223H",
+                          "name": "Air Conditioning Repair heading",
+                          "fill": "$b-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Air Conditioning Repair",
+                          "lineHeight": 1.22,
+                          "fontFamily": "$b-heading-trial",
+                          "fontSize": 23
+                        },
+                        {
+                          "type": "text",
+                          "id": "CgTQ1",
+                          "name": "Air Conditioning Repair original copy",
+                          "fill": "$b-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "When the AC quits in the middle of a Florida afternoon, you want it fixed correctly the first time and at a fair price. That’s the whole job for us.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "WS5Pt",
+                          "name": "Air Conditioning Repair link",
+                          "fill": "$b-ocean",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Explore service →",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "gai0b",
+                  "name": "Commercial Air Conditioning editorial row",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 22,
+                  "padding": [
+                    24,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "KO6cR",
+                      "name": "Commercial Air Conditioning icon",
+                      "width": 28,
+                      "height": 28,
+                      "icon": "building-2",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mk8TA",
+                      "name": "Commercial Air Conditioning content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G44pe",
+                          "name": "Commercial Air Conditioning heading",
+                          "fill": "$b-ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Commercial Air Conditioning",
+                          "lineHeight": 1.22,
+                          "fontFamily": "$b-heading-trial",
+                          "fontSize": 23
+                        },
+                        {
+                          "type": "text",
+                          "id": "ilLED",
+                          "name": "Commercial Air Conditioning original copy",
+                          "fill": "$b-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Office, retail, restaurant — we install, service, and replace high-efficiency commercial HVAC systems built for steady duty cycles and lower bills.",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 16
+                        },
+                        {
+                          "type": "text",
+                          "id": "Y8FILo",
+                          "name": "Commercial Air Conditioning link",
+                          "fill": "$b-ocean",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Explore service →",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$b-body",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v71kzL",
+                  "name": "Additional service links",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "gap": 24,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "cSCsI",
+                      "name": "AC Maintenance link",
+                      "fill": "$b-ocean",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC Maintenance →",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N7Cpd",
+                      "name": "Emergency AC Service link",
+                      "fill": "$b-ocean",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Emergency AC Service →",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HvzXv",
+          "name": "Company / grounded confidence",
+          "width": "fill_container",
+          "fill": "$b-ink",
+          "gap": 88,
+          "padding": [
+            76,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "XnWwR",
+              "name": "Company story",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BI7mY",
+                  "name": "Original company heading",
+                  "fill": "$b-paper",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Air Turbulencia",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 42,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "D1yTf",
+                  "name": "Original local service subheading",
+                  "fill": "$b-paper",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "AC Installation Tampa",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 24
+                },
+                {
+                  "type": "rectangle",
+                  "id": "W28F6",
+                  "name": "Amber signature rule / company",
+                  "fill": "$b-amber",
+                  "width": 56,
+                  "height": 3
+                },
+                {
+                  "type": "text",
+                  "id": "Nm7Ug",
+                  "name": "Original company introduction",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "When it comes to your home’s air conditioner, you want the best of the best. The right equipment and the right contractor. With us, you get both: a free in-home assessment, a properly sized system, and a clean, professional install.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "MJlW9",
+                  "name": "Original company value",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We focus on giving every customer their money’s worth, which means high-quality, reliable products and a finished install you don’t have to think about again.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "Gp0HR",
+                  "name": "Company page link",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Get to know our company →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "xxRt8",
+              "name": "Equipment expertise",
+              "width": 460,
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                8,
+                0
+              ],
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "gdRWd",
+                  "name": "Equipment expertise wind icon",
+                  "width": 42,
+                  "height": 42,
+                  "icon": "wind",
+                  "library": "lucide",
+                  "fill": "$b-amber"
+                },
+                {
+                  "type": "text",
+                  "id": "XFbec",
+                  "name": "Original equipment heading",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "All Makes and Models",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 28
+                },
+                {
+                  "type": "text",
+                  "id": "YnN7Y",
+                  "name": "Original equipment copy",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Our service team is capable of working on every major make and model. Even if your AC hasn’t been replaced in many years, we can help. Plenty of hands-on field experience means we work confidently on older and newer equipment.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                },
+                {
+                  "type": "text",
+                  "id": "Y1LkZ",
+                  "name": "Original diagnosis copy",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Whatever the situation, our Tampa Bay technicians are equipped to give you a real diagnosis and a satisfactory fix the first time.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TB36s",
+          "name": "New system / considered installation",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "gap": 72,
+          "padding": [
+            88,
+            88,
+            72,
+            88
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "bfsFy",
+              "name": "Existing equipment image",
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "../design/assets/installation.jpg",
+                "mode": "cover"
+              },
+              "width": 566,
+              "height": 478
+            },
+            {
+              "type": "frame",
+              "id": "RWve1",
+              "name": "Installation and financing content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EGpHw",
+                  "name": "Installation feature heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A system that fits.\nA home that feels right.",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 38,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "auRtf",
+                  "name": "Installation retained message",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "The right equipment and the right contractor. Start with a free in-home assessment, a properly sized system, and a clean, professional install.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 18
+                },
+                {
+                  "type": "frame",
+                  "id": "KsA5Q",
+                  "name": "Evaluate your home’s heating and cooling needs. row",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "KaJFa",
+                      "name": "Evaluate your home’s heating and cooling needs. check",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "text",
+                      "id": "y06VW",
+                      "name": "Evaluate your home’s heating and cooling needs.",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Evaluate your home’s heating and cooling needs.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nqYBf",
+                  "name": "Find the right-sized equipment for your space. row",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "fTLH7",
+                      "name": "Find the right-sized equipment for your space. check",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q3byMm",
+                      "name": "Find the right-sized equipment for your space.",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Find the right-sized equipment for your space.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Le8Ek",
+                  "name": "Get a clear estimate before work starts. row",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "hLZJ5",
+                      "name": "Get a clear estimate before work starts. check",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "check",
+                      "library": "lucide",
+                      "fill": "$b-amber"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TVbhO",
+                      "name": "Get a clear estimate before work starts.",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Get a clear estimate before work starts.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "X59oyl",
+                  "name": "Installation related links",
+                  "width": "fill_container",
+                  "gap": 24,
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MR5CU",
+                      "name": "Explore AC installation link",
+                      "fill": "$b-ocean",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Explore AC installation →",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bGk4f",
+                      "name": "AC financing link",
+                      "fill": "$b-ocean",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC financing →",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A4MStb",
+          "name": "Heating expertise",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "gap": 72,
+          "padding": [
+            0,
+            88,
+            80,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ER6iN",
+              "name": "Heating Installation Tampa section",
+              "width": "fill_container",
+              "stroke": "#D9DFDB",
+              "strokeWidth": {
+                "top": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                28,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ppa6E",
+                  "name": "Heating Installation Tampa",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Heating Installation Tampa",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 25
+                },
+                {
+                  "type": "text",
+                  "id": "A9vjGA",
+                  "name": "Heating Installation Tampa original copy",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Our installers work across every common make and model. We provide a free estimate so you know which heating system fits your home before committing.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "nbtOv",
+                  "name": "Heating Installation Tampa link",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Explore heating service →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "o3XNMX",
+              "name": "Heating Repair Service section",
+              "width": "fill_container",
+              "stroke": "#D9DFDB",
+              "strokeWidth": {
+                "top": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                28,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BRtM0",
+                  "name": "Heating Repair Service",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Heating Repair Service",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 25
+                },
+                {
+                  "type": "text",
+                  "id": "xk1b3",
+                  "name": "Heating Repair Service original copy",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Tampa winters are short but sharp. When the heat fails, Air Turbulencia is the call — fast diagnosis, clean repair, no upsell.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 16
+                },
+                {
+                  "type": "text",
+                  "id": "brtXV",
+                  "name": "Heating Repair Service link",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Explore heating service →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kO63k",
+          "name": "Testimonials / two original attributed reviews",
+          "width": "fill_container",
+          "fill": "$b-stone",
+          "layout": "vertical",
+          "gap": 38,
+          "padding": [
+            72,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "EZ9Ck",
+              "name": "Testimonials heading row",
+              "width": "fill_container",
+              "gap": 80,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l9S76Y",
+                  "name": "Original testimonials heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Testimonials",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 36,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "YpWC6",
+                  "name": "Google reviews source link",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": 220,
+                  "content": "Read Google reviews →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 14,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D6aDj",
+              "name": "Customer voice composition",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "f5xRai",
+                  "name": "Joe Welbourn original review",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T1ePd",
+                      "name": "Joe original quotation",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“We called Angel at Air Turbulencia. Angel came to our office within a few hours, knew exactly what was wrong with our AC, and had it repaired in 20 minutes.”",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "d7Xnyw",
+                      "name": "Joe attribution",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Joe Welbourn · Google Review",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U8Jhc",
+                  "name": "Andrew Semryck original review",
+                  "width": 390,
+                  "layout": "vertical",
+                  "gap": 24,
+                  "padding": [
+                    8,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ZSMSP",
+                      "name": "Andrew original quotation",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "“If I could give a 6-star rating I would. The owner Angel is awesome — if you need any kind of HVAC work done, call this guy. Trustworthy.”",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 19
+                    },
+                    {
+                      "type": "text",
+                      "id": "H6A2k",
+                      "name": "Andrew attribution",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Andrew Semryck · Google Review",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "z6cpsp",
+          "name": "Tampa Bay service area",
+          "width": "fill_container",
+          "fill": "$b-ink",
+          "gap": 88,
+          "padding": [
+            80,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "BB3Dc",
+              "name": "Service area introduction",
+              "width": 380,
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lUtOC",
+                  "name": "Original service area heading",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Service Area",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 38,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "hKk7W",
+                  "name": "Local service copy",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Heating and cooling services for Tampa Bay and its surrounding communities. Ask our team about service at your location.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 18
+                },
+                {
+                  "type": "text",
+                  "id": "w4Pfr",
+                  "name": "Full coverage link",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "View all service areas →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qgbQw",
+              "name": "Selected existing service localities",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "h5D1S5",
+                  "name": "Tampa locality column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "O72OOc",
+                      "name": "Tampa locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tampa",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "c0wsqC",
+                      "name": "South Tampa locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "South Tampa",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gpMOV",
+                      "name": "Carrollwood locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Carrollwood",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BsP8X",
+                      "name": "Brandon locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Brandon",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SP9iJ",
+                  "name": "Riverview locality column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "F9Fi32",
+                      "name": "Riverview locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Riverview",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "S9hx8",
+                      "name": "Wesley Chapel locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Wesley Chapel",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QOKJJ",
+                      "name": "Lutz locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Lutz",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Me25A",
+                      "name": "New Tampa locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "New Tampa",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E1lIRS",
+                  "name": "Clearwater locality column",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y9fsw",
+                      "name": "Clearwater locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Clearwater",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xrQ6v",
+                      "name": "St Petersburg locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "St Petersburg",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WoznK",
+                      "name": "Palm Harbor locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Palm Harbor",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "R9gsAl",
+                      "name": "Westchase locality",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Westchase",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "TfgRf",
+          "name": "Useful questions / proposed supplementary copy",
+          "width": "fill_container",
+          "fill": "$b-paper",
+          "gap": 88,
+          "padding": [
+            80,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "coeHq",
+              "name": "FAQ introduction",
+              "width": 380,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WVVXo",
+                  "name": "FAQ heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Before you call.",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 34,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "text",
+                  "id": "yMtN7",
+                  "name": "All FAQs link",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "More questions & answers →",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "rectangle",
+                  "id": "N7YRma",
+                  "name": "FAQ equipment image / current website resource",
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "../design/assets/faq-equipment.jpg",
+                    "mode": "contain"
+                  },
+                  "width": "fill_container",
+                  "height": 240
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tYNGz",
+              "name": "FAQ question list",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "zg6FA",
+                  "name": "Do you service older air conditioners? answer block",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L61NER",
+                      "name": "Do you service older air conditioners?",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Do you service older air conditioners?",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 19
+                    },
+                    {
+                      "type": "text",
+                      "id": "tvAsQ",
+                      "name": "Do you service older air conditioners? answer",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Our team works on older and newer equipment across every major make and model. Contact us to discuss the issue you’re experiencing.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t1tYy",
+                  "name": "How do I start planning a new AC installation? answer block",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M7FJNZ",
+                      "name": "How do I start planning a new AC installation?",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "How do I start planning a new AC installation?",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 19
+                    },
+                    {
+                      "type": "text",
+                      "id": "n6VQus",
+                      "name": "How do I start planning a new AC installation? answer",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Request an in-home assessment. We evaluate your home, recommend a properly sized system and provide a clear estimate before work starts.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AhpsV",
+                  "name": "Can I ask about AC financing? answer block",
+                  "width": "fill_container",
+                  "stroke": "#D9DFDB",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    22,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zcONQ",
+                      "name": "Can I ask about AC financing?",
+                      "fill": "$b-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Can I ask about AC financing?",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 19
+                    },
+                    {
+                      "type": "text",
+                      "id": "WGmtu",
+                      "name": "Can I ask about AC financing? answer",
+                      "fill": "$b-muted",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Yes. Visit our AC Financing page or speak with our team about current options and terms.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 15
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BQUIS",
+          "name": "Closing service request",
+          "width": "fill_container",
+          "fill": "$b-stone",
+          "gap": 88,
+          "padding": [
+            64,
+            88
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YQacs",
+              "name": "Original closing message",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JyhpD",
+                  "name": "Original closing heading",
+                  "fill": "$b-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "If You’re Looking for\nAC Installation Tampa",
+                  "lineHeight": 1.22,
+                  "fontFamily": "$b-heading-trial",
+                  "fontSize": 40,
+                  "letterSpacing": -0.7
+                },
+                {
+                  "type": "rectangle",
+                  "id": "RdJTn",
+                  "name": "Amber signature rule / closing",
+                  "fill": "$b-amber",
+                  "width": 56,
+                  "height": 3
+                },
+                {
+                  "type": "text",
+                  "id": "vs1bA",
+                  "name": "Original closing service copy",
+                  "fill": "$b-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "We are professionals who will take care of your specific heating and cooling problems, from install to repair to maintenance.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 17
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V7VW2L",
+              "name": "Closing service actions",
+              "width": 285,
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I1B0ZS",
+                  "name": "Schedule an appointment button",
+                  "width": "fill_container",
+                  "fill": "$b-ocean",
+                  "cornerRadius": 4,
+                  "gap": 14,
+                  "padding": [
+                    18,
+                    23
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MqukA",
+                      "name": "Schedule appointment label",
+                      "fill": "#FFFFFF",
+                      "content": "Schedule an Appointment",
+                      "fontFamily": "$b-body",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UcNXm",
+                  "name": "Closing call link",
+                  "fill": "$b-ocean",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "or call (813) 815-1234",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kmc7Q",
+          "name": "Footer / full service directory",
+          "width": "fill_container",
+          "fill": "$b-ink",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            64,
+            88,
+            32,
+            88
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "edFtX",
+              "name": "Footer directory columns",
+              "width": "fill_container",
+              "gap": 38,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SIKVb",
+                  "name": "Air Turbulencia directory",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AWEOo",
+                      "name": "Air Turbulencia directory heading",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Turbulencia",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "C9FPU2",
+                      "name": "Air Turbulencia Tampa Bay HVAC",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tampa Bay HVAC",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "esDi5",
+                      "name": "Air Turbulencia (813) 815-1234",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "(813) 815-1234",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "c8u7W",
+                      "name": "Air Turbulencia contacts@airturbulencia.com",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "contacts@airturbulencia.com",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "br70e",
+                      "name": "Air Turbulencia 4023 W Cayuga St",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "4023 W Cayuga St",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "UA5RV",
+                      "name": "Air Turbulencia Tampa, FL 33614",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Tampa, FL 33614",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tJMqT",
+                  "name": "AC / HVAC Services directory",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K0Y03",
+                      "name": "AC / HVAC Services directory heading",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC / HVAC Services",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "JwSUH",
+                      "name": "AC / HVAC Services Air Conditioning Installation",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Conditioning Installation",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "D7PmVt",
+                      "name": "AC / HVAC Services Air Conditioning Repair",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Conditioning Repair",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "kGl3U",
+                      "name": "AC / HVAC Services Air Conditioning Maintenance",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Conditioning Maintenance",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "D5bXn",
+                      "name": "AC / HVAC Services Commercial Air Conditioning",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Commercial Air Conditioning",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "JOMre",
+                      "name": "AC / HVAC Services Air Conditioning Emergency",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Conditioning Emergency",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "VWIm8",
+                      "name": "AC / HVAC Services High Efficiency AC Systems",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "High Efficiency AC Systems",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "Qpp1p",
+                      "name": "AC / HVAC Services AC Zone Control Systems",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC Zone Control Systems",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "ranmK",
+                      "name": "AC / HVAC Services Ductless Mini Split Systems",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Ductless Mini Split Systems",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "kaZZM",
+                      "name": "AC / HVAC Services HVAC Heat Pumps",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "HVAC Heat Pumps",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "TvUzm",
+                      "name": "AC / HVAC Services Air Conditioning Thermostats",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Air Conditioning Thermostats",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "p5JZs8",
+                  "name": "Heating Services directory",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HFbKg",
+                      "name": "Heating Services directory heading",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Services",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "tiJfm",
+                      "name": "Heating Services Heating Installation",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Installation",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "gHSYx",
+                      "name": "Heating Services Heating Repair",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Repair",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "TNB3b",
+                      "name": "Heating Services Heating Maintenance",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Maintenance",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "d57MZ",
+                      "name": "Heating Services Commercial Heating",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Commercial Heating",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "q0Kmqw",
+                      "name": "Heating Services Heating Emergency",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Emergency",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "YUOn8",
+                      "name": "Heating Services Hybrid Heating Systems",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Hybrid Heating Systems",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "RgMWz",
+                      "name": "Heating Services Heating Zone Control Systems",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Zone Control Systems",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "yV15T",
+                      "name": "Heating Services Heating Furnaces",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Furnaces",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "g09qo",
+                      "name": "Heating Services Packaged HVAC Units",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Packaged HVAC Units",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "BYuUO",
+                      "name": "Heating Services Heat Pumps Service",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heat Pumps Service",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j2SoYg",
+                  "name": "Explore directory",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "u9hXLv",
+                      "name": "Explore directory heading",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Explore",
+                      "lineHeight": 1.22,
+                      "fontFamily": "$b-heading-trial",
+                      "fontSize": 17
+                    },
+                    {
+                      "type": "text",
+                      "id": "q39sWn",
+                      "name": "Explore About Us",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "About Us",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "e2Kaj",
+                      "name": "Explore Why Choose Us",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Why Choose Us",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "Kjdo3",
+                      "name": "Explore Service Area",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Service Area",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "X56XM",
+                      "name": "Explore AC Financing",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC Financing",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "P8oxBt",
+                      "name": "Explore FAQs",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "FAQs",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "kzOsL",
+                      "name": "Explore AC Tips",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AC Tips",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "lM5Cy",
+                      "name": "Explore Heating Tips",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Heating Tips",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    },
+                    {
+                      "type": "text",
+                      "id": "NBSCV",
+                      "name": "Explore Contact",
+                      "fill": "#D7E2E5",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Contact",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$b-body",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K6sfA",
+              "name": "Copyright and legal links",
+              "width": "fill_container",
+              "stroke": "#39505B",
+              "strokeWidth": {
+                "top": 1
+              },
+              "gap": 32,
+              "padding": [
+                24,
+                0,
+                0,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zfceO",
+                  "name": "Copyright",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "© 2026 Air Turbulencia Inc. All rights reserved.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "ImXlQ",
+                  "name": "Terms & Conditions",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": 150,
+                  "content": "Terms & Conditions",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "lVgJB",
+                  "name": "Privacy Policy",
+                  "fill": "#D7E2E5",
+                  "textGrowth": "fixed-width",
+                  "width": 150,
+                  "content": "Privacy Policy",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$b-body",
+                  "fontSize": 12
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "at-ink": {
+      "type": "color",
+      "value": "#102D43"
+    },
+    "at-blue": {
+      "type": "color",
+      "value": "#075985"
+    },
+    "at-wash": {
+      "type": "color",
+      "value": "#EFF8FC"
+    },
+    "at-orange": {
+      "type": "color",
+      "value": "#C2410C"
+    },
+    "at-muted": {
+      "type": "color",
+      "value": "#486171"
+    },
+    "at-font": {
+      "type": "string",
+      "value": "Plus Jakarta Sans"
+    },
+    "b-paper": {
+      "type": "color",
+      "value": "#FAFAF7"
+    },
+    "b-stone": {
+      "type": "color",
+      "value": "#EEEFEA"
+    },
+    "b-ink": {
+      "type": "color",
+      "value": "#182D38"
+    },
+    "b-ocean": {
+      "type": "color",
+      "value": "#155E75"
+    },
+    "b-amber": {
+      "type": "color",
+      "value": "#D97706"
+    },
+    "b-muted": {
+      "type": "color",
+      "value": "#52636A"
+    },
+    "b-heading": {
+      "type": "string",
+      "value": "Poppins"
+    },
+    "b-body": {
+      "type": "string",
+      "value": "Open Sans"
+    },
+    "b-heading-trial": {
+      "type": "string",
+      "value": "Archivo Black"
+    }
+  },
+  "fileToken": "0e3c9383-1083-40f6-8272-3c2e120b6857"
+}
