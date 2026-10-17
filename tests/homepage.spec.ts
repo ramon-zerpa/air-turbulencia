@@ -62,6 +62,15 @@ test('legacy tornado favicon variants are declared and served', async ({ page })
   }
 });
 
+test('preview robots.txt is valid while homepage remains noindex', async ({ page, request }) => {
+  await page.goto('/');
+  await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', 'noindex, nofollow');
+  const response = await request.get('/robots.txt');
+  expect(response.ok()).toBe(true);
+  expect(response.headers()['content-type']).toContain('text/plain');
+  expect((await response.text()).trim()).toBe('User-agent: *\nDisallow:');
+});
+
 test('title airflow texture keeps readable contrast against the light surface', async ({ page }) => {
   await page.goto('/');
   const pattern = fs.readFileSync('src/assets/title-airflow.svg', 'utf8');
@@ -121,6 +130,7 @@ test('keyboard can open services, follow its links and dismiss the menu', async 
 test('mobile navigation stacks its links and groups Services into compact disclosures', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
+  await expect(page.locator('.room-image')).toHaveCSS('object-fit', 'cover');
   await page.locator('.menu-toggle').click();
 
   const navigation = page.locator('.primary-navigation');

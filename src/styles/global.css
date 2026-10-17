@@ -1327,7 +1327,7 @@ html[data-motion="paused"] [data-title-flow] .airflow-title {
     transform: none;
   }
   .room-image {
-    object-fit: fill;
+    object-fit: cover;
   }
   .static-curtain {
     width: 100%;
