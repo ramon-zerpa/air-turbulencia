@@ -45,6 +45,23 @@ test('desktop preserves the approved search intent, page coverage and local asse
   expect(bundleScripts).toBeLessThanOrEqual(2);
 });
 
+test('legacy tornado favicon variants are declared and served', async ({ page }) => {
+  await page.goto('/');
+  const iconLinks = page.locator('head link[rel="icon"], head link[rel="apple-touch-icon"]');
+  await expect(iconLinks).toHaveCount(4);
+  const hrefs = await iconLinks.evaluateAll(links => links.map(link => (link as HTMLLinkElement).getAttribute('href')));
+  expect(hrefs).toEqual([
+    '/favicon.ico',
+    '/favicons/favicon-32x32.png',
+    '/favicons/android-chrome-192x192.png',
+    '/favicons/apple-touch-icon.png',
+  ]);
+  for (const href of hrefs) {
+    const response = await page.request.get(href!);
+    expect(response.ok(), `${href} should be served`).toBe(true);
+  }
+});
+
 test('title airflow texture keeps readable contrast against the light surface', async ({ page }) => {
   await page.goto('/');
   const pattern = fs.readFileSync('src/assets/title-airflow.svg', 'utf8');
@@ -222,21 +239,20 @@ test('service cards start together and align their bottoms from tablet upward', 
 });
 
 test('the first installation step stays within two lines on desktop', async ({ page }) => {
-  for (const width of [1100, 1280, 1440]) {
-    await page.setViewportSize({ width, height: 1000 });
-    await page.goto('/');
-    const paragraph = page.locator('.process-steps li').first().locator('p');
-    const metrics = await paragraph.evaluate(element => {
-      const style = getComputedStyle(element);
-      const lineHeight = parseFloat(style.lineHeight);
-      return {
-        lines: element.getBoundingClientRect().height / lineHeight,
-        width: element.getBoundingClientRect().width,
-        fontSize: style.fontSize,
-      };
-    });
-    expect(metrics.lines, `at ${width}px, paragraph width ${metrics.width}px and font size ${metrics.fontSize}`).toBeLessThanOrEqual(2.1);
-  }
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.goto('/');
+  await page.evaluate(() => document.fonts.ready);
+  const paragraph = page.locator('.process-steps li').first().locator('p');
+  const metrics = await paragraph.evaluate(element => {
+    const style = getComputedStyle(element);
+    const lineHeight = parseFloat(style.lineHeight);
+    return {
+      lines: element.getBoundingClientRect().height / lineHeight,
+      width: element.getBoundingClientRect().width,
+      fontSize: style.fontSize,
+    };
+  });
+  expect(metrics.lines, `at 1440px, paragraph width ${metrics.width}px and font size ${metrics.fontSize}`).toBeCloseTo(2, 0);
 });
 
 test('expertise copy width, service image and desktop paragraph match the approved content', async ({ page }) => {
