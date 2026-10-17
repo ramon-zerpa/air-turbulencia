@@ -71,6 +71,26 @@ test('preview robots.txt is valid while homepage remains noindex', async ({ page
   expect((await response.text()).trim()).toBe('User-agent: *\nDisallow:');
 });
 
+test('static hero layers share the same cover crop', async ({ page }) => {
+  for (const width of [390, 768, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto('/');
+    const layers = await page.evaluate(() => {
+      const room = document.querySelector('.room-image')!.getBoundingClientRect();
+      const curtain = document.querySelector('.static-curtain')!;
+      const curtainBox = curtain.getBoundingClientRect();
+      return {
+        widthDifference: Math.abs(room.width - curtainBox.width),
+        heightDifference: Math.abs(room.height - curtainBox.height),
+        objectFit: getComputedStyle(curtain).objectFit,
+      };
+    });
+    expect(layers.widthDifference).toBeLessThan(1);
+    expect(layers.heightDifference).toBeLessThan(1);
+    expect(layers.objectFit).toBe('cover');
+  }
+});
+
 test('title airflow texture keeps readable contrast against the light surface', async ({ page }) => {
   await page.goto('/');
   const pattern = fs.readFileSync('src/assets/title-airflow.svg', 'utf8');
