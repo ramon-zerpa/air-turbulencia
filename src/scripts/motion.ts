@@ -59,7 +59,6 @@ export function initMotion() {
   }
   function markStaticMotion(el: HTMLElement) {
     el.closest<HTMLElement>(".process-steps li")?.setAttribute("data-motion-static", "");
-    el.closest<HTMLElement>(".final-call")?.setAttribute("data-motion-static", "");
   }
   function finish(el: HTMLElement) {
     seen.add(el);
