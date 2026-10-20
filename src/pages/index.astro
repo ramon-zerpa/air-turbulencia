@@ -22,7 +22,7 @@ const steps = [
 ---
 <SiteLayout>
   <AirflowHero />
-  <nav class="quick-services container" aria-label="Popular services">{quickServices.map(({ title, path, icon: Icon }, i) => <a href={pageLink(path)} data-reveal data-delay={i * 80}><Icon size={24} aria-hidden="true" /><span>{title}</span><ArrowUpRight size={21} aria-hidden="true" /></a>)}</nav>
+  <nav class="quick-services container" aria-label="Popular services">{quickServices.map(({ title, path, icon: Icon }) => <a href={pageLink(path)}><Icon size={24} aria-hidden="true" /><span>{title}</span><ArrowUpRight size={21} aria-hidden="true" /></a>)}</nav>
   <section class="services-section section-pad" aria-labelledby="services-title"><div class="container">
     <div class="section-intro" data-reveal><h2 id="services-title" data-title-flow><span class="airflow-title airflow-title--ink">Good air.</span><br /><span class="airflow-title airflow-title--ocean ocean">Better every day.</span></h2><p>From an AC that needs attention to a fresh start with a new system, we take care of your home’s comfort.</p></div>
     <div class="service-panels">
