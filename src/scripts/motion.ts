@@ -232,10 +232,11 @@ export function initMotion() {
   window.addEventListener(
     "scroll",
     () => {
-      const fast = Math.abs(window.scrollY - previousScroll) > 180;
-      previousScroll = window.scrollY;
+      const currentScroll = window.scrollY;
+      const fast = Math.abs(currentScroll - previousScroll) > 180;
+      previousScroll = currentScroll;
       if (fast) animations.forEach((_, el) => finish(el));
-      scrollY = Math.min(window.scrollY * 0.035, 24);
+      scrollY = Math.min(currentScroll * 0.035, 24);
       if (visible) position();
     },
     { passive: true, signal: abort.signal },
