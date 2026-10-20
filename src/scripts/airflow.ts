@@ -52,7 +52,8 @@ export async function createAirflow(
     frameCount = 0,
     sampleStart = 0,
     slowSamples = 0,
-    quality = 0;
+    quality = 0,
+    mobileViewport = innerWidth < 768;
   let clothProgram: WebGLProgram | null = null,
     airProgram: WebGLProgram | null = null,
     texture: WebGLTexture | null = null;
@@ -115,9 +116,9 @@ export async function createAirflow(
   function resize() {
     if (disposed || failed) return;
     const r = surface.getBoundingClientRect();
-    const mobile = innerWidth < 768;
+    mobileViewport = innerWidth < 768;
     const dpr =
-      Math.min(devicePixelRatio, mobile ? 1 : 1.5, Math.sqrt(800000 / (r.width * r.height))) * (quality > 0 ? 0.65 : 1);
+      Math.min(devicePixelRatio, mobileViewport ? 1 : 1.5, Math.sqrt(400000 / (r.width * r.height))) * (quality > 0 ? 0.65 : 1);
     canvas.width = Math.max(1, Math.round(r.width * dpr));
     canvas.height = Math.max(1, Math.round(r.height * dpr));
     gl!.viewport(0, 0, canvas.width, canvas.height);
@@ -129,12 +130,12 @@ export async function createAirflow(
     // Shade only the airflow area; transparent left-side pixels need no GPU work.
     const quad = buffer(new Float32Array([.48,.17,.93,.17,.48,.86,.48,.86,.93,.17,.93,.86]));
     const mesh: number[] = [];
-    for (let y = 0; y < 24; y++)
-      for (let x = 0; x < 48; x++) {
-        const a = .74 + x / 48 * .26,
-          b = y / 24,
-          c = .74 + (x + 1) / 48 * .26,
-          d = (y + 1) / 24;
+    for (let y = 0; y < 16; y++)
+      for (let x = 0; x < 24; x++) {
+        const a = .74 + x / 24 * .26,
+          b = y / 16,
+          c = .74 + (x + 1) / 24 * .26,
+          d = (y + 1) / 16;
         mesh.push(a, b, c, b, a, d, a, d, c, b, c, d);
       }
     const clothBuffer = buffer(new Float32Array(mesh));
@@ -175,7 +176,7 @@ export async function createAirflow(
       bind(airProgram!, quad, airPos);
       gl!.uniform1f(at, elapsed);
       gl!.uniform1f(as, strength);
-      gl!.uniform1f(al, innerWidth < 768 || quality > 1 ? 2 : 3);
+      gl!.uniform1f(al, mobileViewport || quality > 1 ? 2 : 3);
       gl!.drawArrays(gl!.TRIANGLES, 0, 6);
       bind(clothProgram!, clothBuffer, clothPos);
       gl!.uniform1f(ct, elapsed);
@@ -185,7 +186,7 @@ export async function createAirflow(
     function tick(now: number) {
       if (!active || disposed || failed) return;
       raf = requestAnimationFrame(tick);
-      const target = innerWidth < 768 || quality > 2 ? 30 : 60;
+      const target = mobileViewport ? 24 : 30;
       if (now - lastDraw < 1000 / target - 2) return;
       if (last) elapsed += Math.min((now - last) / 1000, 0.1);
       last = now;
