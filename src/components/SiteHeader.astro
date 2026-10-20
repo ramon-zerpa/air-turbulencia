@@ -1,6 +1,8 @@
 ---
+import { Picture } from 'astro:assets';
 import { ArrowUpRight, ChevronDown, Menu, X } from '@lucide/astro';
 import { acServices, heatingServices, pageLink, site } from '../data/site';
+import logo from '../assets/ac-installation-tampa-logo.png';
 ---
 <div class="top-bar">
   <div class="container top-bar-inner">
@@ -11,7 +13,7 @@ import { acServices, heatingServices, pageLink, site } from '../data/site';
 <header class="site-header">
   <div class="container header-inner">
     <a href="/" class="brand" aria-label="Air Turbulencia home">
-      <img src="/images/ac-installation-tampa-logo.png" alt="Air Turbulencia" width="740" height="268" fetchpriority="high" decoding="async" />
+      <Picture src={logo} widths={[310, 360, 465]} sizes="(max-width: 767px) 155px, 180px" formats={['avif']} fallbackFormat="png" quality={55} alt="Air Turbulencia" loading="eager" decoding="async" />
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
       <Menu class="menu-open" size={26} aria-hidden="true" />

@@ -5,5 +5,6 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   compressHTML: true,
+  build: { inlineStylesheets: 'always' },
   devToolbar: { enabled: false },
 });
